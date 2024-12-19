@@ -9,13 +9,9 @@
     let
       lib = nixpkgs.lib;
       system = "aarch64-linux";
-      specialArgs = {
-        inherit system inputs;
-      };
     in rec {
       nixosConfigurations.test = inputs.nixpkgs.lib.nixosSystem {
         inherit system;
-        inherit specialArgs;
         modules = [
           {
             system.stateVersion = "24.11";
