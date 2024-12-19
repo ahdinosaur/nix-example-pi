@@ -1,0 +1,1751 @@
+groff-aarch64-unknown-linux-gnu> Running phase: unpackPhase
+groff-aarch64-unknown-linux-gnu> unpacking source archive /nix/store/a1x53pqhdsxshcbc511slf2rwqwf25gj-groff-1.23.0.tar.gz
+groff-aarch64-unknown-linux-gnu> source root is groff-1.23.0
+groff-aarch64-unknown-linux-gnu> setting SOURCE_DATE_EPOCH to timestamp 1688591203 of file groff-1.23.0/src/include/unicode.h
+groff-aarch64-unknown-linux-gnu> Running phase: patchPhase
+groff-aarch64-unknown-linux-gnu> substituteStream() in derivation groff-aarch64-unknown-linux-gnu-1.23.0: WARNING: '--replace' is deprecated, use --replace-{fail,warn,quiet}. (file 'contrib/gdiffmk/gdiffmk.sh')
+groff-aarch64-unknown-linux-gnu> Running phase: autoreconfPhase
+groff-aarch64-unknown-linux-gnu> autoreconf: export WARNINGS=
+groff-aarch64-unknown-linux-gnu> autoreconf: Entering directory '.'
+groff-aarch64-unknown-linux-gnu> autoreconf: configure.ac: not using Gettext
+groff-aarch64-unknown-linux-gnu> autoreconf: running: aclocal --force -I m4 -I gnulib_m4
+groff-aarch64-unknown-linux-gnu> autoreconf: configure.ac: tracing
+groff-aarch64-unknown-linux-gnu> autoreconf: configure.ac: not using Libtool
+groff-aarch64-unknown-linux-gnu> autoreconf: configure.ac: not using Intltool
+groff-aarch64-unknown-linux-gnu> autoreconf: configure.ac: not using Gtkdoc
+groff-aarch64-unknown-linux-gnu> autoreconf: running: /nix/store/zwva6ar5cd1v1wvsilxj2bc70yld4dw2-autoconf-2.72/bin/autoconf --force
+groff-aarch64-unknown-linux-gnu> autoreconf: running: /nix/store/zwva6ar5cd1v1wvsilxj2bc70yld4dw2-autoconf-2.72/bin/autoheader --force
+groff-aarch64-unknown-linux-gnu> autoreconf: running: automake --add-missing --copy --force-missing
+groff-aarch64-unknown-linux-gnu> autoreconf: 'build-aux/install-sh' is updated
+groff-aarch64-unknown-linux-gnu> autoreconf: Leaving directory '.'
+groff-aarch64-unknown-linux-gnu> Running phase: updateAutotoolsGnuConfigScriptsPhase
+groff-aarch64-unknown-linux-gnu> Updating Autotools / GNU config script to a newer upstream version: ./build-aux/config.sub
+groff-aarch64-unknown-linux-gnu> Updating Autotools / GNU config script to a newer upstream version: ./build-aux/config.guess
+groff-aarch64-unknown-linux-gnu> Running phase: updateAutotoolsGnuConfigScriptsPhase
+groff-aarch64-unknown-linux-gnu> Updating Autotools / GNU config script to a newer upstream version: ./build-aux/config.sub
+groff-aarch64-unknown-linux-gnu> Updating Autotools / GNU config script to a newer upstream version: ./build-aux/config.guess
+groff-aarch64-unknown-linux-gnu> Running phase: configurePhase
+groff-aarch64-unknown-linux-gnu> patching script interpreter paths in ./configure
+groff-aarch64-unknown-linux-gnu> ./configure: interpreter directive changed from "#! /bin/sh" to "/nix/store/p6k7xp1lsfmbdd731mlglrdj2d66mr82-bash-5.2p37/bin/sh"
+groff-aarch64-unknown-linux-gnu> configure flags: --disable-dependency-tracking --prefix=/nix/store/b8kn2pyhmv5bvw0m5fn6cpkqg50l1yhi-groff-aarch64-unknown-linux-gnu-1.23.0 --bindir=/nix/store/b8kn2pyhmv5bvw0m5fn6cpkqg50l1yhi-groff-aarch64-unknown-linux-gnu-1.23.0/bin --sbindir=/nix/store/b8kn2pyhmv5bvw0m5fn6cpkqg50l1yhi-groff-aarch64-unknown-linux-gnu-1.23.0/sbin --includedir=/nix/store/b8kn2pyhmv5bvw0m5fn6cpkqg50l1yhi-groff-aarch64-unknown-linux-gnu-1.23.0/include --oldincludedir=/nix/store/b8kn2pyhmv5bvw0m5fn6cpkqg50l1yhi-groff-aarch64-unknown-linux-gnu-1.23.0/include --mandir=/nix/store/4h3c03whhs2m26msvz0hgb19psix6r1h-groff-aarch64-unknown-linux-gnu-1.23.0-man/share/man --infodir=/nix/store/gh7y05is4zfhwlw8fqim0aag3s5mbrwz-groff-aarch64-unknown-linux-gnu-1.23.0-info/share/info --docdir=/nix/store/ys3dzp761y8yvz8qfasj5p5fkvsxiz2i-groff-aarch64-unknown-linux-gnu-1.23.0-doc/share/doc/groff --libdir=/nix/store/b8kn2pyhmv5bvw0m5fn6cpkqg50l1yhi-groff-aarch64-unknown-linux-gnu-1.23.0/lib --libexecdir=/nix/store/b8kn2pyhmv5bvw0m5fn6cpkqg50l1yhi-groff-aarch64-unknown-linux-gnu-1.23.0/libexec --localedir=/nix/store/b8kn2pyhmv5bvw0m5fn6cpkqg50l1yhi-groff-aarch64-unknown-linux-gnu-1.23.0/share/locale --without-x ac_cv_path_PERL=/nix/store/6fklzkr5x213h868q31isgy82wpmb1yb-perl-5.40.0/bin/perl gl_cv_func_signbit=yes --build=x86_64-unknown-linux-gnu --host=aarch64-unknown-linux-gnu
+groff-aarch64-unknown-linux-gnu> checking for aarch64-unknown-linux-gnu-gcc... aarch64-unknown-linux-gnu-gcc
+groff-aarch64-unknown-linux-gnu> checking whether the C compiler works... yes
+groff-aarch64-unknown-linux-gnu> checking for C compiler default output file name... a.out
+groff-aarch64-unknown-linux-gnu> checking for suffix of executables...
+groff-aarch64-unknown-linux-gnu> checking whether we are cross compiling... yes
+groff-aarch64-unknown-linux-gnu> checking for suffix of object files... o
+groff-aarch64-unknown-linux-gnu> checking whether the compiler supports GNU C... yes
+groff-aarch64-unknown-linux-gnu> checking whether aarch64-unknown-linux-gnu-gcc accepts -g... yes
+groff-aarch64-unknown-linux-gnu> checking for aarch64-unknown-linux-gnu-gcc option to enable C11 features... none needed
+groff-aarch64-unknown-linux-gnu> checking whether aarch64-unknown-linux-gnu-gcc understands -c and -o together... yes
+groff-aarch64-unknown-linux-gnu> checking whether the compiler is clang... no
+groff-aarch64-unknown-linux-gnu> checking for compiler option needed when checking for declarations... none
+groff-aarch64-unknown-linux-gnu> checking for stdio.h... yes
+groff-aarch64-unknown-linux-gnu> checking for stdlib.h... yes
+groff-aarch64-unknown-linux-gnu> checking for string.h... yes
+groff-aarch64-unknown-linux-gnu> checking for inttypes.h... yes
+groff-aarch64-unknown-linux-gnu> checking for stdint.h... yes
+groff-aarch64-unknown-linux-gnu> checking for strings.h... yes
+groff-aarch64-unknown-linux-gnu> checking for sys/stat.h... yes
+groff-aarch64-unknown-linux-gnu> checking for sys/types.h... yes
+groff-aarch64-unknown-linux-gnu> checking for unistd.h... yes
+groff-aarch64-unknown-linux-gnu> checking for wchar.h... yes
+groff-aarch64-unknown-linux-gnu> checking for minix/config.h... no
+groff-aarch64-unknown-linux-gnu> checking for features.h... yes
+groff-aarch64-unknown-linux-gnu> checking for limits.h... yes
+groff-aarch64-unknown-linux-gnu> checking for math.h... yes
+groff-aarch64-unknown-linux-gnu> checking for sys/mman.h... yes
+groff-aarch64-unknown-linux-gnu> checking for crtdefs.h... no
+groff-aarch64-unknown-linux-gnu> checking for wctype.h... yes
+groff-aarch64-unknown-linux-gnu> checking for sys/param.h... yes
+groff-aarch64-unknown-linux-gnu> checking whether it is safe to define __EXTENSIONS__... yes
+groff-aarch64-unknown-linux-gnu> checking whether _XOPEN_SOURCE should be defined... no
+groff-aarch64-unknown-linux-gnu> checking for a BSD-compatible install... /nix/store/b1wvkjx96i3s7wblz38ya0zr8i93zbc5-coreutils-9.5/bin/install -c
+groff-aarch64-unknown-linux-gnu> checking whether build environment is sane... yes
+groff-aarch64-unknown-linux-gnu> checking for aarch64-unknown-linux-gnu-strip... aarch64-unknown-linux-gnu-strip
+groff-aarch64-unknown-linux-gnu> checking for a race-free mkdir -p... /nix/store/b1wvkjx96i3s7wblz38ya0zr8i93zbc5-coreutils-9.5/bin/mkdir -p
+groff-aarch64-unknown-linux-gnu> checking for gawk... gawk
+groff-aarch64-unknown-linux-gnu> checking whether make sets $(MAKE)... yes
+groff-aarch64-unknown-linux-gnu> checking whether make supports the include directive... yes (GNU style)
+groff-aarch64-unknown-linux-gnu> checking whether make supports nested variables... yes
+groff-aarch64-unknown-linux-gnu> checking dependency style of aarch64-unknown-linux-gnu-gcc... none
+groff-aarch64-unknown-linux-gnu> checking whether make supports nested variables... (cached) yes
+groff-aarch64-unknown-linux-gnu> checking for aarch64-unknown-linux-gnu-gcc... (cached) aarch64-unknown-linux-gnu-gcc
+groff-aarch64-unknown-linux-gnu> checking whether the compiler supports GNU C... (cached) yes
+groff-aarch64-unknown-linux-gnu> checking whether aarch64-unknown-linux-gnu-gcc accepts -g... (cached) yes
+groff-aarch64-unknown-linux-gnu> checking for aarch64-unknown-linux-gnu-gcc option to enable C11 features... (cached) none needed
+groff-aarch64-unknown-linux-gnu> checking whether aarch64-unknown-linux-gnu-gcc understands -c and -o together... (cached) yes
+groff-aarch64-unknown-linux-gnu> checking whether the compiler is clang... (cached) no
+groff-aarch64-unknown-linux-gnu> checking for compiler option needed when checking for declarations... (cached) none
+groff-aarch64-unknown-linux-gnu> checking whether the compiler supports GNU C++... yes
+groff-aarch64-unknown-linux-gnu> checking whether aarch64-unknown-linux-gnu-g++ accepts -g... yes
+groff-aarch64-unknown-linux-gnu> checking for aarch64-unknown-linux-gnu-g++ option to enable C++11 features... none needed
+groff-aarch64-unknown-linux-gnu> checking dependency style of aarch64-unknown-linux-gnu-g++... none
+groff-aarch64-unknown-linux-gnu> checking build system type... x86_64-unknown-linux-gnu
+groff-aarch64-unknown-linux-gnu> checking host system type... aarch64-unknown-linux-gnu
+groff-aarch64-unknown-linux-gnu> checking how to run the C preprocessor... aarch64-unknown-linux-gnu-gcc -E
+groff-aarch64-unknown-linux-gnu> checking for egrep -e... /nix/store/85amyk92rg19l4fy0qmy7wr4jmq8p5z0-gnugrep-3.11/bin/grep -E
+groff-aarch64-unknown-linux-gnu> checking for Minix Amsterdam compiler... no
+groff-aarch64-unknown-linux-gnu> checking for aarch64-unknown-linux-gnu-ar... aarch64-unknown-linux-gnu-ar
+groff-aarch64-unknown-linux-gnu> checking for size_t... yes
+groff-aarch64-unknown-linux-gnu> checking for working alloca.h... yes
+groff-aarch64-unknown-linux-gnu> checking for alloca... yes
+groff-aarch64-unknown-linux-gnu> checking whether the preprocessor supports include_next... yes
+groff-aarch64-unknown-linux-gnu> checking whether source code line length is unlimited... yes
+groff-aarch64-unknown-linux-gnu> checking for complete errno.h... yes
+groff-aarch64-unknown-linux-gnu> checking whether ctype.h defines __header_inline... no
+groff-aarch64-unknown-linux-gnu> checking for stdint.h... yes
+groff-aarch64-unknown-linux-gnu> checking for inttypes.h... yes
+groff-aarch64-unknown-linux-gnu> checking whether printf supports size specifiers as in C99... guessing yes
+groff-aarch64-unknown-linux-gnu> checking whether printf supports 'long double' arguments... guessing yes
+groff-aarch64-unknown-linux-gnu> checking whether printf supports infinite 'double' arguments... guessing yes
+groff-aarch64-unknown-linux-gnu> checking whether byte ordering is bigendian... no
+groff-aarch64-unknown-linux-gnu> checking whether long double and double are the same... no
+groff-aarch64-unknown-linux-gnu> checking whether printf supports infinite 'long double' arguments... guessing yes
+groff-aarch64-unknown-linux-gnu> checking whether printf supports the 'a' and 'A' directives... guessing yes
+groff-aarch64-unknown-linux-gnu> checking whether printf supports the 'F' directive... guessing yes
+groff-aarch64-unknown-linux-gnu> checking whether printf supports the 'n' directive... guessing no
+groff-aarch64-unknown-linux-gnu> checking whether printf supports the 'ls' directive... guessing yes
+groff-aarch64-unknown-linux-gnu> checking whether printf supports POSIX/XSI format strings with positions... guessing yes
+groff-aarch64-unknown-linux-gnu> checking whether printf supports the grouping flag... guessing yes
+groff-aarch64-unknown-linux-gnu> checking whether printf supports the left-adjust flag correctly... guessing yes
+groff-aarch64-unknown-linux-gnu> checking whether printf supports the zero flag correctly... guessing yes
+groff-aarch64-unknown-linux-gnu> checking whether printf supports large precisions... guessing yes
+groff-aarch64-unknown-linux-gnu> checking whether the compiler produces multi-arch binaries... no
+groff-aarch64-unknown-linux-gnu> checking whether printf survives out-of-memory conditions... guessing yes
+groff-aarch64-unknown-linux-gnu> checking for aarch64-unknown-linux-gnu-gcc options needed to detect all undeclared functions... none needed
+groff-aarch64-unknown-linux-gnu> checking for vasnprintf... no
+groff-aarch64-unknown-linux-gnu> checking for snprintf... yes
+groff-aarch64-unknown-linux-gnu> checking for symlink... yes
+groff-aarch64-unknown-linux-gnu> checking for mprotect... yes
+groff-aarch64-unknown-linux-gnu> checking for iswcntrl... yes
+groff-aarch64-unknown-linux-gnu> checking for wcwidth... yes
+groff-aarch64-unknown-linux-gnu> checking for getpagesize... yes
+groff-aarch64-unknown-linux-gnu> checking for wchar_t... yes
+groff-aarch64-unknown-linux-gnu> checking for wint_t... yes
+groff-aarch64-unknown-linux-gnu> checking whether wint_t is large enough... yes
+groff-aarch64-unknown-linux-gnu> checking for intmax_t... yes
+groff-aarch64-unknown-linux-gnu> checking where to find the exponent in a 'double'... (cached) word 1 bit 20
+groff-aarch64-unknown-linux-gnu> checking whether snprintf returns a byte count as in C99... guessing yes
+groff-aarch64-unknown-linux-gnu> checking whether snprintf truncates the result as in C99... guessing yes
+groff-aarch64-unknown-linux-gnu> checking for snprintf... (cached) yes
+groff-aarch64-unknown-linux-gnu> checking for strnlen... yes
+groff-aarch64-unknown-linux-gnu> checking for wcslen... yes
+groff-aarch64-unknown-linux-gnu> checking for wcsnlen... yes
+groff-aarch64-unknown-linux-gnu> checking for mbrtowc... yes
+groff-aarch64-unknown-linux-gnu> checking for wcrtomb... yes
+groff-aarch64-unknown-linux-gnu> checking whether _snprintf is declared... no
+groff-aarch64-unknown-linux-gnu> checking whether frexp() can be used without linking with libm... yes
+groff-aarch64-unknown-linux-gnu> checking whether alarm is declared... yes
+groff-aarch64-unknown-linux-gnu> checking whether limits.h has WORD_BIT, BOOL_WIDTH etc.... yes
+groff-aarch64-unknown-linux-gnu> checking whether stdint.h conforms to C99... guessing yes
+groff-aarch64-unknown-linux-gnu> checking whether stdint.h works without ISO C predefines... yes
+groff-aarch64-unknown-linux-gnu> checking whether stdint.h has UINTMAX_WIDTH etc.... yes
+groff-aarch64-unknown-linux-gnu> checking for C/C++ restrict keyword... __restrict__
+groff-aarch64-unknown-linux-gnu> checking where to find the exponent in a 'float'... word 0 bit 23
+groff-aarch64-unknown-linux-gnu> checking for nl_langinfo and CODESET... yes
+groff-aarch64-unknown-linux-gnu> checking for working fcntl.h... cross-compiling
+groff-aarch64-unknown-linux-gnu> checking whether getc_unlocked is declared... yes
+groff-aarch64-unknown-linux-gnu> checking whether we are using the GNU C Library >= 2.1 or uClibc... yes
+groff-aarch64-unknown-linux-gnu> checking whether NAN macro works... yes
+groff-aarch64-unknown-linux-gnu> checking whether HUGE_VAL works... yes
+groff-aarch64-unknown-linux-gnu> checking for mmap... yes
+groff-aarch64-unknown-linux-gnu> checking for MAP_ANONYMOUS... yes
+groff-aarch64-unknown-linux-gnu> checking whether memchr works... guessing no
+groff-aarch64-unknown-linux-gnu> checking whether snprintf is declared... yes
+groff-aarch64-unknown-linux-gnu> checking for _Bool... yes
+groff-aarch64-unknown-linux-gnu> checking for stdbool.h that conforms to C99 or later... yes
+groff-aarch64-unknown-linux-gnu> checking for good max_align_t... yes
+groff-aarch64-unknown-linux-gnu> checking whether NULL can be used in arbitrary expressions... yes
+groff-aarch64-unknown-linux-gnu> checking whether fcloseall is declared... yes
+groff-aarch64-unknown-linux-gnu> checking whether getw is declared... yes
+groff-aarch64-unknown-linux-gnu> checking whether putw is declared... yes
+groff-aarch64-unknown-linux-gnu> checking which flavor of printf attribute matches inttypes macros... system
+groff-aarch64-unknown-linux-gnu> checking whether ecvt is declared... yes
+groff-aarch64-unknown-linux-gnu> checking whether fcvt is declared... yes
+groff-aarch64-unknown-linux-gnu> checking whether gcvt is declared... yes
+groff-aarch64-unknown-linux-gnu> checking for pid_t... yes
+groff-aarch64-unknown-linux-gnu> checking for mode_t... yes
+groff-aarch64-unknown-linux-gnu> checking whether execvpe is declared... yes
+groff-aarch64-unknown-linux-gnu> checking whether vsnprintf is declared... yes
+groff-aarch64-unknown-linux-gnu> checking whether <wchar.h> uses 'inline' correctly... yes
+groff-aarch64-unknown-linux-gnu> checking whether wcsdup is declared... yes
+groff-aarch64-unknown-linux-gnu> checking whether iswcntrl works... guessing yes
+groff-aarch64-unknown-linux-gnu> checking for towlower... yes
+groff-aarch64-unknown-linux-gnu> checking for wctype_t... yes
+groff-aarch64-unknown-linux-gnu> checking for wctrans_t... yes
+groff-aarch64-unknown-linux-gnu> checking for inline... inline
+groff-aarch64-unknown-linux-gnu> checking for C compiler option to allow warnings... -Wno-error
+groff-aarch64-unknown-linux-gnu> checking for alloca as a compiler built-in... yes
+groff-aarch64-unknown-linux-gnu> checking for static_assert... yes, an <assert.h> macro
+groff-aarch64-unknown-linux-gnu> checking whether conversion from 'int' to 'long double' works... guessing yes
+groff-aarch64-unknown-linux-gnu> checking for ptrdiff_t... yes
+groff-aarch64-unknown-linux-gnu> checking whether free is known to preserve errno... yes
+groff-aarch64-unknown-linux-gnu> checking whether frexp works... guessing yes
+groff-aarch64-unknown-linux-gnu> checking whether frexpl is declared... yes
+groff-aarch64-unknown-linux-gnu> checking whether frexpl() can be used without linking with libm... yes
+groff-aarch64-unknown-linux-gnu> checking whether frexpl works... guessing yes
+groff-aarch64-unknown-linux-gnu> checking for __fseterr... no
+groff-aarch64-unknown-linux-gnu> checking whether isnan(double) can be used without linking with libm... yes
+groff-aarch64-unknown-linux-gnu> checking whether isnan(float) can be used without linking with libm... yes
+groff-aarch64-unknown-linux-gnu> checking whether isnan(float) works... guessing yes
+groff-aarch64-unknown-linux-gnu> checking whether isnan(long double) can be used without linking with libm... yes
+groff-aarch64-unknown-linux-gnu> checking whether isnanl works... guessing yes
+groff-aarch64-unknown-linux-gnu> checking for bp-sym.h... no
+groff-aarch64-unknown-linux-gnu> checking whether frexp works... (cached) guessing yes
+groff-aarch64-unknown-linux-gnu> checking whether ldexp can be used without linking with libm... yes
+groff-aarch64-unknown-linux-gnu> checking whether frexpl() can be used without linking with libm... (cached) yes
+groff-aarch64-unknown-linux-gnu> checking whether frexpl works... (cached) guessing yes
+groff-aarch64-unknown-linux-gnu> checking whether frexpl is declared... (cached) yes
+groff-aarch64-unknown-linux-gnu> checking whether ldexpl() can be used without linking with libm... yes
+groff-aarch64-unknown-linux-gnu> checking whether ldexpl works... guessing yes
+groff-aarch64-unknown-linux-gnu> checking whether ldexpl is declared... yes
+groff-aarch64-unknown-linux-gnu> checking for signbit macro... (cached) yes
+groff-aarch64-unknown-linux-gnu> checking for signbit compiler built-ins... guessing yes
+groff-aarch64-unknown-linux-gnu> checking for stdint.h... (cached) yes
+groff-aarch64-unknown-linux-gnu> checking for SIZE_MAX... yes
+groff-aarch64-unknown-linux-gnu> checking for snprintf... (cached) yes
+groff-aarch64-unknown-linux-gnu> checking whether snprintf respects a size of 1... guessing yes
+groff-aarch64-unknown-linux-gnu> checking whether printf supports POSIX/XSI format strings with positions... (cached) guessing yes
+groff-aarch64-unknown-linux-gnu> checking for ssize_t... yes
+groff-aarch64-unknown-linux-gnu> checking for ptrdiff_t... (cached) yes
+groff-aarch64-unknown-linux-gnu> checking for vsnprintf... yes
+groff-aarch64-unknown-linux-gnu> checking whether snprintf respects a size of 1... (cached) guessing yes
+groff-aarch64-unknown-linux-gnu> checking whether printf supports POSIX/XSI format strings with positions... (cached) guessing yes
+groff-aarch64-unknown-linux-gnu> checking whether wcwidth is declared... yes
+groff-aarch64-unknown-linux-gnu> checking whether wcwidth works reasonably in UTF-8 locales... guessing yes
+groff-aarch64-unknown-linux-gnu> checking for stdint.h... (cached) yes
+groff-aarch64-unknown-linux-gnu> checking that header files support C++... yes
+groff-aarch64-unknown-linux-gnu> checking whether character set is EBCDIC... no
+groff-aarch64-unknown-linux-gnu> checking whether to install .cmd wrapper scripts for Windows... no
+groff-aarch64-unknown-linux-gnu> checking for X... disabled
+groff-aarch64-unknown-linux-gnu> checking for a sed that does not truncate output... /nix/store/vmby25zqxnx94awvj0k7zn0rsd0zyrwg-gnused-4.9/bin/sed
+groff-aarch64-unknown-linux-gnu> checking for grep that handles long lines and -e... /nix/store/85amyk92rg19l4fy0qmy7wr4jmq8p5z0-gnugrep-3.11/bin/grep
+groff-aarch64-unknown-linux-gnu> checking for perl... (cached) /nix/store/6fklzkr5x213h868q31isgy82wpmb1yb-perl-5.40.0/bin/perl
+groff-aarch64-unknown-linux-gnu> checking for perl version... 5.40.0
+groff-aarch64-unknown-linux-gnu> checking for lpr... no
+groff-aarch64-unknown-linux-gnu> checking for lp... no
+groff-aarch64-unknown-linux-gnu> checking for egrep... /nix/store/85amyk92rg19l4fy0qmy7wr4jmq8p5z0-gnugrep-3.11/bin/grep -E
+groff-aarch64-unknown-linux-gnu> checking for byacc... no
+groff-aarch64-unknown-linux-gnu> checking for bison... no
+groff-aarch64-unknown-linux-gnu> checking for yacc... no
+groff-aarch64-unknown-linux-gnu> checking for m4... m4
+groff-aarch64-unknown-linux-gnu> checking for makeinfo... makeinfo
+groff-aarch64-unknown-linux-gnu> checking for makeinfo version... 7.1.1
+groff-aarch64-unknown-linux-gnu> checking for texi2dvi... texi2dvi
+groff-aarch64-unknown-linux-gnu> checking for tex... missing
+groff-aarch64-unknown-linux-gnu> checking for aarch64-unknown-linux-gnu-ranlib... aarch64-unknown-linux-gnu-ranlib
+groff-aarch64-unknown-linux-gnu> checking for install-info... install-info
+groff-aarch64-unknown-linux-gnu> checking whether ln -s works... yes
+groff-aarch64-unknown-linux-gnu> checking for xpmtoppm... missing
+groff-aarch64-unknown-linux-gnu> checking pkg-config is at least version 0.9.0... yes
+groff-aarch64-unknown-linux-gnu> checking for uchardet >= 0.0.1... no
+groff-aarch64-unknown-linux-gnu> checking for csh hash hack... no
+groff-aarch64-unknown-linux-gnu> checking for stdbool.h... (cached) yes
+groff-aarch64-unknown-linux-gnu> checking for stddef.h... yes
+groff-aarch64-unknown-linux-gnu> checking for stdlib.h... (cached) yes
+groff-aarch64-unknown-linux-gnu> checking for unistd.h... (cached) yes
+groff-aarch64-unknown-linux-gnu> checking for dirent.h... yes
+groff-aarch64-unknown-linux-gnu> checking for limits.h... (cached) yes
+groff-aarch64-unknown-linux-gnu> checking for sys/dir.h... yes
+groff-aarch64-unknown-linux-gnu> checking for string.h... (cached) yes
+groff-aarch64-unknown-linux-gnu> checking for strings.h... (cached) yes
+groff-aarch64-unknown-linux-gnu> checking for math.h... (cached) yes
+groff-aarch64-unknown-linux-gnu> checking for sys/time.h... yes
+groff-aarch64-unknown-linux-gnu> checking for direct.h... no
+groff-aarch64-unknown-linux-gnu> checking for process.h... no
+groff-aarch64-unknown-linux-gnu> checking for ISC 3.x or 4.x... no
+groff-aarch64-unknown-linux-gnu> checking whether -D_POSIX_SOURCE is necessary... no
+groff-aarch64-unknown-linux-gnu> checking for return type of srand... void
+groff-aarch64-unknown-linux-gnu> checking whether gettimeofday must be declared... no
+groff-aarch64-unknown-linux-gnu> checking whether popen must be declared... no
+groff-aarch64-unknown-linux-gnu> checking whether pclose must be declared... no
+groff-aarch64-unknown-linux-gnu> checking whether putenv must be declared... no
+groff-aarch64-unknown-linux-gnu> checking whether rand must be declared... no
+groff-aarch64-unknown-linux-gnu> checking whether srand must be declared... no
+groff-aarch64-unknown-linux-gnu> checking whether strcasecmp must be declared... no
+groff-aarch64-unknown-linux-gnu> checking whether strncasecmp must be declared... no
+groff-aarch64-unknown-linux-gnu> checking whether vfprintf must be declared... no
+groff-aarch64-unknown-linux-gnu> checking for sys_nerr in <errno.h>, <stdio.h>, or <stdlib.h>... no
+groff-aarch64-unknown-linux-gnu> checking for sys_errlist in <errno.h>, <stdio.h>, or <stdlib.h>... no
+groff-aarch64-unknown-linux-gnu> checking C++ <osfcn.h>... no
+groff-aarch64-unknown-linux-gnu> checking C++ <limits.h>... yes
+groff-aarch64-unknown-linux-gnu> checking C++ <inttypes.h>... yes
+groff-aarch64-unknown-linux-gnu> checking for unsigned long long... yes
+groff-aarch64-unknown-linux-gnu> checking for declaration of time_t... yes
+groff-aarch64-unknown-linux-gnu> checking for return type of signal handlers... void
+groff-aarch64-unknown-linux-gnu> checking struct exception... no
+groff-aarch64-unknown-linux-gnu> checking whether byte ordering is bigendian... (cached) no
+groff-aarch64-unknown-linux-gnu> checking for main in -lc... yes
+groff-aarch64-unknown-linux-gnu> checking for sin in -lm... yes
+groff-aarch64-unknown-linux-gnu> checking for ld used by aarch64-unknown-linux-gnu-gcc... aarch64-unknown-linux-gnu-ld
+groff-aarch64-unknown-linux-gnu> checking if the linker (aarch64-unknown-linux-gnu-ld) is GNU ld... yes
+groff-aarch64-unknown-linux-gnu> checking for shared library run path origin... done
+groff-aarch64-unknown-linux-gnu> checking how to run the C++ preprocessor... aarch64-unknown-linux-gnu-g++ -E
+groff-aarch64-unknown-linux-gnu> checking for iconv... yes
+groff-aarch64-unknown-linux-gnu> checking for working iconv... guessing yes
+groff-aarch64-unknown-linux-gnu> checking for iconv declaration...
+groff-aarch64-unknown-linux-gnu>          extern size_t iconv (iconv_t cd, char * *inbuf, size_t *inbytesleft, char * *outbuf, size_t *outbytesleft);
+groff-aarch64-unknown-linux-gnu> checking for working mmap... yes
+groff-aarch64-unknown-linux-gnu> checking for fmod... yes
+groff-aarch64-unknown-linux-gnu> checking for getcwd... yes
+groff-aarch64-unknown-linux-gnu> checking for putenv... yes
+groff-aarch64-unknown-linux-gnu> checking for strcasecmp... yes
+groff-aarch64-unknown-linux-gnu> checking for strerror... yes
+groff-aarch64-unknown-linux-gnu> checking for strncasecmp... yes
+groff-aarch64-unknown-linux-gnu> checking for strtol... yes
+groff-aarch64-unknown-linux-gnu> checking for gettimeofday... yes
+groff-aarch64-unknown-linux-gnu> checking for isatty... yes
+groff-aarch64-unknown-linux-gnu> checking for kill... yes
+groff-aarch64-unknown-linux-gnu> checking for rename... yes
+groff-aarch64-unknown-linux-gnu> checking for setlocale... yes
+groff-aarch64-unknown-linux-gnu> checking for strdup... yes
+groff-aarch64-unknown-linux-gnu> checking for strsep... yes
+groff-aarch64-unknown-linux-gnu> checking for mkstemp... yes
+groff-aarch64-unknown-linux-gnu> checking whether strsignal is declared... yes
+groff-aarch64-unknown-linux-gnu> checking whether getc_unlocked is declared... (cached) yes
+groff-aarch64-unknown-linux-gnu> checking whether sys_siglist is declared... no
+groff-aarch64-unknown-linux-gnu> checking whether getc_unlocked is declared... (cached) yes
+groff-aarch64-unknown-linux-gnu> checking for nl_langinfo and CODESET... (cached) yes
+groff-aarch64-unknown-linux-gnu> checking whether ISO C++98 array deletion syntax is supported... yes
+groff-aarch64-unknown-linux-gnu> checking whether C preprocessor uses pre-ISO C90 syntax... no
+groff-aarch64-unknown-linux-gnu> checking w_coredump... no
+groff-aarch64-unknown-linux-gnu> checking default value for grops -b option... 0
+groff-aarch64-unknown-linux-gnu> checking default paper format... a4
+groff-aarch64-unknown-linux-gnu> checking for existing troff installation... no
+groff-aarch64-unknown-linux-gnu> checking for prefix of system macro packages... none
+groff-aarch64-unknown-linux-gnu> checking which system macro packages should be made available... none found
+groff-aarch64-unknown-linux-gnu> checking separator character to use in groff search paths... :
+groff-aarch64-unknown-linux-gnu> checking for aarch64-unknown-linux-gnu-gs... no
+groff-aarch64-unknown-linux-gnu> checking for aarch64-unknown-linux-gnu-gswin32c... no
+groff-aarch64-unknown-linux-gnu> checking for aarch64-unknown-linux-gnu-gsos2... no
+groff-aarch64-unknown-linux-gnu> checking for gs... no
+groff-aarch64-unknown-linux-gnu> checking for gswin32c... no
+groff-aarch64-unknown-linux-gnu> checking for gsos2... no
+groff-aarch64-unknown-linux-gnu> checking for pnmcrop... missing
+groff-aarch64-unknown-linux-gnu> checking for pnmcut... missing
+groff-aarch64-unknown-linux-gnu> checking for pnmtopng... missing
+groff-aarch64-unknown-linux-gnu> checking for pnmtops... missing
+groff-aarch64-unknown-linux-gnu> checking for psselect... missing
+groff-aarch64-unknown-linux-gnu> checking for aarch64-unknown-linux-gnu-gawk... (cached) gawk
+groff-aarch64-unknown-linux-gnu> checking for URW fonts in Type 1/PFB format... found in /usr/share/fonts/type1/urw-base35/
+groff-aarch64-unknown-linux-gnu> checking whether pnmtops accepts the '-nosetpage' option... no
+groff-aarch64-unknown-linux-gnu> checking whether make defines 'RM'... yes
+groff-aarch64-unknown-linux-gnu> checking for a diff program that supports option -D... yes
+groff-aarch64-unknown-linux-gnu> checking whether test supports option -ef... yes
+groff-aarch64-unknown-linux-gnu> checking for bash... /nix/store/p6k7xp1lsfmbdd731mlglrdj2d66mr82-bash-5.2p37/bin/bash
+groff-aarch64-unknown-linux-gnu> checking whether we are using the GNU C Library >= 2.1 or uClibc... (cached) yes
+groff-aarch64-unknown-linux-gnu> checking that generated files are newer than configure... done
+groff-aarch64-unknown-linux-gnu> configure: creating ./config.status
+groff-aarch64-unknown-linux-gnu> config.status: creating Makefile
+groff-aarch64-unknown-linux-gnu> config.status: creating test-groff
+groff-aarch64-unknown-linux-gnu> config.status: creating src/include/config.h
+groff-aarch64-unknown-linux-gnu> config.status: executing depfiles commands
+groff-aarch64-unknown-linux-gnu> GNU roff version 1.23.0
+groff-aarch64-unknown-linux-gnu> ----------------------------------------------------------------------
+groff-aarch64-unknown-linux-gnu>  installation directory prefix    : /nix/store/b8kn2pyhmv5bvw0m5fn6cpkqg50l1yhi-groff-aarch64-unknown-linux-gnu-1.23.0
+groff-aarch64-unknown-linux-gnu>  C++ compiler and options         : aarch64-unknown-linux-gnu-g++ -g -O2
+groff-aarch64-unknown-linux-gnu>  use libgroff's memory allocator  : no
+groff-aarch64-unknown-linux-gnu>  C compiler and options           : aarch64-unknown-linux-gnu-gcc -g -O2
+groff-aarch64-unknown-linux-gnu>  Perl interpreter version         : 5.40.0
+groff-aarch64-unknown-linux-gnu>  X11 support                      : disabled
+groff-aarch64-unknown-linux-gnu>  'groff -l' uses print spooler    : no
+groff-aarch64-unknown-linux-gnu>  use URW fonts for PDF output     : yes
+groff-aarch64-unknown-linux-gnu>  URW fonts directory              : /usr/share/fonts/type1/urw-base35/
+groff-aarch64-unknown-linux-gnu>  preconv can use uchardet library : no
+groff-aarch64-unknown-linux-gnu>  can build groff.dvi, groff.pdf   : no
+groff-aarch64-unknown-linux-gnu> ----------------------------------------------------------------------
+groff-aarch64-unknown-linux-gnu> configure: No Ghostscript program was found in $PATH.
+groff-aarch64-unknown-linux-gnu>   It was sought under the name(s) "gs gswin32c gsos2".
+groff-aarch64-unknown-linux-gnu>   groff documentation will not be available in HTML.
+groff-aarch64-unknown-linux-gnu>   'grohtml' will have reduced function, being unable to produce
+groff-aarch64-unknown-linux-gnu>   documents using the 'tbl' preprocessor.
+groff-aarch64-unknown-linux-gnu> configure: The uchardet library was not found.
+groff-aarch64-unknown-linux-gnu>   The 'preconv' preprocessor program will be unable to attempt automatic
+groff-aarch64-unknown-linux-gnu>   inference of an input file's character encoding.  See the preconv(1)
+groff-aarch64-unknown-linux-gnu>   man page.
+groff-aarch64-unknown-linux-gnu> configure: The programs 'gs', 'pnmcrop', 'pnmcut', 'pnmtopng', 'pnmtops', and 'psselect' were not found in $PATH.
+groff-aarch64-unknown-linux-gnu>   Consequently, groff's HTML output driver, 'grohtml', will not work
+groff-aarch64-unknown-linux-gnu>   properly.  It will not be possible to prepare or install
+groff-aarch64-unknown-linux-gnu>   groff-generated documentation in HTML format.
+groff-aarch64-unknown-linux-gnu> configure: 'pdfroff' will not be functional.
+groff-aarch64-unknown-linux-gnu>   Because Ghostscript is missing, 'pdfroff' will not operate
+groff-aarch64-unknown-linux-gnu>   and the 'pdfmark.pdf' document will not be available.
+groff-aarch64-unknown-linux-gnu> Running phase: buildPhase
+groff-aarch64-unknown-linux-gnu> build flags: -j16 SHELL=/nix/store/p6k7xp1lsfmbdd731mlglrdj2d66mr82-bash-5.2p37/bin/bash GROFF_BIN_PATH=/nix/store/pf3krkihiaqgap8kdwqia4xwxgx8zdzk-groff-1.23.0/bin GROFFBIN=/nix/store/pf3krkihiaqgap8kdwqia4xwxgx8zdzk-groff-1.23.0/bin/groff
+groff-aarch64-unknown-linux-gnu>   GEN      lib/alloca.h
+groff-aarch64-unknown-linux-gnu>   GEN      lib/inttypes.h
+groff-aarch64-unknown-linux-gnu>   GEN      lib/limits.h
+groff-aarch64-unknown-linux-gnu>   GEN      lib/math.h
+groff-aarch64-unknown-linux-gnu>   GEN      lib/stdio.h
+groff-aarch64-unknown-linux-gnu>   GEN      lib/stdlib.h
+groff-aarch64-unknown-linux-gnu>   GEN      lib/string.h
+groff-aarch64-unknown-linux-gnu>   GEN      lib/sys/types.h
+groff-aarch64-unknown-linux-gnu>   GEN      lib/unistd.h
+groff-aarch64-unknown-linux-gnu>   GEN      lib/unitypes.h
+groff-aarch64-unknown-linux-gnu>   GEN      lib/uniwidth.h
+groff-aarch64-unknown-linux-gnu>   GEN      lib/wchar.h
+groff-aarch64-unknown-linux-gnu>   GEN      lib/wctype.h
+groff-aarch64-unknown-linux-gnu>   GEN      contrib/chem/README
+groff-aarch64-unknown-linux-gnu>   GEN      font/devpdf/DESC
+groff-aarch64-unknown-linux-gnu>   GEN      shdeps.sed
+groff-aarch64-unknown-linux-gnu>   GEN      font/devpdf/Foundry
+groff-aarch64-unknown-linux-gnu>   GEN      afmtodit
+groff-aarch64-unknown-linux-gnu>   GEN      charset.alias
+groff-aarch64-unknown-linux-gnu>   GEN      ref-del.sed
+groff-aarch64-unknown-linux-gnu>   GEN      ref-add.sed
+groff-aarch64-unknown-linux-gnu>   GEN      font/devpdf/util/BuildFoundries
+groff-aarch64-unknown-linux-gnu>   GEN      font/devpdf/download
+groff-aarch64-unknown-linux-gnu> BuildFoundries: notice: copied grops font AB
+groff-aarch64-unknown-linux-gnu> BuildFoundries: notice: copied grops font ABI
+groff-aarch64-unknown-linux-gnu> BuildFoundries: notice: copied grops font AI
+groff-aarch64-unknown-linux-gnu> BuildFoundries: notice: copied grops font AR
+groff-aarch64-unknown-linux-gnu> BuildFoundries: notice: copied grops font BMB
+groff-aarch64-unknown-linux-gnu> BuildFoundries: notice: copied grops font BMBI
+groff-aarch64-unknown-linux-gnu> BuildFoundries: notice: copied grops font BMI
+groff-aarch64-unknown-linux-gnu> BuildFoundries: notice: copied grops font BMR
+groff-aarch64-unknown-linux-gnu> BuildFoundries: notice: copied grops font CB
+groff-aarch64-unknown-linux-gnu> BuildFoundries: notice: copied grops font CBI
+groff-aarch64-unknown-linux-gnu> BuildFoundries: notice: copied grops font CI
+groff-aarch64-unknown-linux-gnu> BuildFoundries: notice: copied grops font CR
+groff-aarch64-unknown-linux-gnu> BuildFoundries: notice: copied grops font HB
+groff-aarch64-unknown-linux-gnu> BuildFoundries: notice: copied grops font HBI
+groff-aarch64-unknown-linux-gnu> BuildFoundries: notice: copied grops font HI
+groff-aarch64-unknown-linux-gnu> BuildFoundries: notice: copied grops font HNB
+groff-aarch64-unknown-linux-gnu> BuildFoundries: notice: copied grops font HNBI
+groff-aarch64-unknown-linux-gnu> BuildFoundries: notice: copied grops font HNI
+groff-aarch64-unknown-linux-gnu> BuildFoundries: notice: copied grops font HNR
+groff-aarch64-unknown-linux-gnu> BuildFoundries: notice: copied grops font HR
+groff-aarch64-unknown-linux-gnu> BuildFoundries: notice: copied grops font NB
+groff-aarch64-unknown-linux-gnu> BuildFoundries: notice: copied grops font NBI
+groff-aarch64-unknown-linux-gnu> BuildFoundries: notice: copied grops font NI
+groff-aarch64-unknown-linux-gnu> BuildFoundries: notice: copied grops font NR
+groff-aarch64-unknown-linux-gnu> BuildFoundries: notice: copied grops font PB
+groff-aarch64-unknown-linux-gnu> BuildFoundries: notice: copied grops font PBI
+groff-aarch64-unknown-linux-gnu> BuildFoundries: notice: copied grops font PI
+groff-aarch64-unknown-linux-gnu> BuildFoundries: notice: copied grops font PR
+groff-aarch64-unknown-linux-gnu> BuildFoundries: notice: copied grops font S
+groff-aarch64-unknown-linux-gnu> BuildFoundries: notice: copied grops font TB
+groff-aarch64-unknown-linux-gnu> BuildFoundries: notice: copied grops font TBI
+groff-aarch64-unknown-linux-gnu> BuildFoundries: notice: copied grops font TI
+groff-aarch64-unknown-linux-gnu> BuildFoundries: notice: copied grops font TR
+groff-aarch64-unknown-linux-gnu> BuildFoundries: notice: copied grops font ZCMI
+groff-aarch64-unknown-linux-gnu> BuildFoundries: notice: copied grops font ZD
+groff-aarch64-unknown-linux-gnu> BuildFoundries: notice: copied grops font EURO
+groff-aarch64-unknown-linux-gnu> /tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/afmtodit: AGL name 'Delta' already mapped to groff name '*D'; ignoring AGL name 'uni0394'
+groff-aarch64-unknown-linux-gnu> /tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/afmtodit: AGL name 'mu' already mapped to groff name '*m'; ignoring AGL name 'uni03BC'
+groff-aarch64-unknown-linux-gnu> /tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/afmtodit: AGL name 'mu' already mapped to groff name 'mc'; ignoring AGL name 'uni03BC'
+groff-aarch64-unknown-linux-gnu> BuildFoundries: notice: generated U-AB
+groff-aarch64-unknown-linux-gnu> /tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/afmtodit: AGL name 'Delta' already mapped to groff name '*D'; ignoring AGL name 'uni0394'
+groff-aarch64-unknown-linux-gnu> /tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/afmtodit: AGL name 'mu' already mapped to groff name '*m'; ignoring AGL name 'uni03BC'
+groff-aarch64-unknown-linux-gnu> /tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/afmtodit: AGL name 'mu' already mapped to groff name 'mc'; ignoring AGL name 'uni03BC'
+groff-aarch64-unknown-linux-gnu> BuildFoundries: notice: generated U-ABI
+groff-aarch64-unknown-linux-gnu> /tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/afmtodit: AGL name 'Delta' already mapped to groff name '*D'; ignoring AGL name 'uni0394'
+groff-aarch64-unknown-linux-gnu> /tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/afmtodit: AGL name 'mu' already mapped to groff name '*m'; ignoring AGL name 'uni03BC'
+groff-aarch64-unknown-linux-gnu> /tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/afmtodit: AGL name 'mu' already mapped to groff name 'mc'; ignoring AGL name 'uni03BC'
+groff-aarch64-unknown-linux-gnu> BuildFoundries: notice: generated U-AI
+groff-aarch64-unknown-linux-gnu> /tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/afmtodit: AGL name 'Delta' already mapped to groff name '*D'; ignoring AGL name 'uni0394'
+groff-aarch64-unknown-linux-gnu> /tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/afmtodit: AGL name 'mu' already mapped to groff name '*m'; ignoring AGL name 'uni03BC'
+groff-aarch64-unknown-linux-gnu> /tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/afmtodit: AGL name 'mu' already mapped to groff name 'mc'; ignoring AGL name 'uni03BC'
+groff-aarch64-unknown-linux-gnu> BuildFoundries: notice: generated U-AR
+groff-aarch64-unknown-linux-gnu> /tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/afmtodit: AGL name 'Delta' already mapped to groff name '*D'; ignoring AGL name 'uni0394'
+groff-aarch64-unknown-linux-gnu> /tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/afmtodit: AGL name 'mu' already mapped to groff name '*m'; ignoring AGL name 'uni03BC'
+groff-aarch64-unknown-linux-gnu> /tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/afmtodit: AGL name 'mu' already mapped to groff name 'mc'; ignoring AGL name 'uni03BC'
+groff-aarch64-unknown-linux-gnu> BuildFoundries: notice: generated U-BMB
+groff-aarch64-unknown-linux-gnu> /tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/afmtodit: AGL name 'Delta' already mapped to groff name '*D'; ignoring AGL name 'uni0394'
+groff-aarch64-unknown-linux-gnu> /tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/afmtodit: AGL name 'mu' already mapped to groff name '*m'; ignoring AGL name 'uni03BC'
+groff-aarch64-unknown-linux-gnu> /tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/afmtodit: AGL name 'mu' already mapped to groff name 'mc'; ignoring AGL name 'uni03BC'
+groff-aarch64-unknown-linux-gnu> BuildFoundries: notice: generated U-BMBI
+groff-aarch64-unknown-linux-gnu> /tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/afmtodit: AGL name 'Delta' already mapped to groff name '*D'; ignoring AGL name 'uni0394'
+groff-aarch64-unknown-linux-gnu> /tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/afmtodit: AGL name 'mu' already mapped to groff name '*m'; ignoring AGL name 'uni03BC'
+groff-aarch64-unknown-linux-gnu> /tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/afmtodit: AGL name 'mu' already mapped to groff name 'mc'; ignoring AGL name 'uni03BC'
+groff-aarch64-unknown-linux-gnu> BuildFoundries: notice: generated U-BMI
+groff-aarch64-unknown-linux-gnu> /tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/afmtodit: AGL name 'Delta' already mapped to groff name '*D'; ignoring AGL name 'uni0394'
+groff-aarch64-unknown-linux-gnu> /tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/afmtodit: AGL name 'mu' already mapped to groff name '*m'; ignoring AGL name 'uni03BC'
+groff-aarch64-unknown-linux-gnu> /tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/afmtodit: AGL name 'mu' already mapped to groff name 'mc'; ignoring AGL name 'uni03BC'
+groff-aarch64-unknown-linux-gnu> BuildFoundries: notice: generated U-BMR
+groff-aarch64-unknown-linux-gnu> /tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/afmtodit: AGL name 'Delta' already mapped to groff name '*D'; ignoring AGL name 'uni0394'
+groff-aarch64-unknown-linux-gnu> /tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/afmtodit: AGL name 'mu' already mapped to groff name '*m'; ignoring AGL name 'uni03BC'
+groff-aarch64-unknown-linux-gnu> /tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/afmtodit: AGL name 'mu' already mapped to groff name 'mc'; ignoring AGL name 'uni03BC'
+groff-aarch64-unknown-linux-gnu> BuildFoundries: notice: generated U-CB
+groff-aarch64-unknown-linux-gnu> /tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/afmtodit: AGL name 'Delta' already mapped to groff name '*D'; ignoring AGL name 'uni0394'
+groff-aarch64-unknown-linux-gnu> /tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/afmtodit: AGL name 'mu' already mapped to groff name '*m'; ignoring AGL name 'uni03BC'
+groff-aarch64-unknown-linux-gnu> /tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/afmtodit: AGL name 'mu' already mapped to groff name 'mc'; ignoring AGL name 'uni03BC'
+groff-aarch64-unknown-linux-gnu> BuildFoundries: notice: generated U-CBI
+groff-aarch64-unknown-linux-gnu> /tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/afmtodit: AGL name 'Delta' already mapped to groff name '*D'; ignoring AGL name 'uni0394'
+groff-aarch64-unknown-linux-gnu> /tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/afmtodit: AGL name 'mu' already mapped to groff name '*m'; ignoring AGL name 'uni03BC'
+groff-aarch64-unknown-linux-gnu> /tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/afmtodit: AGL name 'mu' already mapped to groff name 'mc'; ignoring AGL name 'uni03BC'
+groff-aarch64-unknown-linux-gnu> BuildFoundries: notice: generated U-CI
+groff-aarch64-unknown-linux-gnu> /tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/afmtodit: AGL name 'Delta' already mapped to groff name '*D'; ignoring AGL name 'uni0394'
+groff-aarch64-unknown-linux-gnu> /tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/afmtodit: AGL name 'mu' already mapped to groff name '*m'; ignoring AGL name 'uni03BC'
+groff-aarch64-unknown-linux-gnu> /tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/afmtodit: AGL name 'mu' already mapped to groff name 'mc'; ignoring AGL name 'uni03BC'
+groff-aarch64-unknown-linux-gnu> BuildFoundries: notice: generated U-CR
+groff-aarch64-unknown-linux-gnu> /tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/afmtodit: AGL name 'Delta' already mapped to groff name '*D'; ignoring AGL name 'uni0394'
+groff-aarch64-unknown-linux-gnu> /tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/afmtodit: AGL name 'mu' already mapped to groff name '*m'; ignoring AGL name 'uni03BC'
+groff-aarch64-unknown-linux-gnu> /tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/afmtodit: AGL name 'mu' already mapped to groff name 'mc'; ignoring AGL name 'uni03BC'
+groff-aarch64-unknown-linux-gnu> BuildFoundries: notice: generated U-HB
+groff-aarch64-unknown-linux-gnu> /tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/afmtodit: AGL name 'Delta' already mapped to groff name '*D'; ignoring AGL name 'uni0394'
+groff-aarch64-unknown-linux-gnu> /tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/afmtodit: AGL name 'mu' already mapped to groff name '*m'; ignoring AGL name 'uni03BC'
+groff-aarch64-unknown-linux-gnu> /tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/afmtodit: AGL name 'mu' already mapped to groff name 'mc'; ignoring AGL name 'uni03BC'
+groff-aarch64-unknown-linux-gnu> BuildFoundries: notice: generated U-HBI
+groff-aarch64-unknown-linux-gnu> /tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/afmtodit: AGL name 'Delta' already mapped to groff name '*D'; ignoring AGL name 'uni0394'
+groff-aarch64-unknown-linux-gnu> /tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/afmtodit: AGL name 'mu' already mapped to groff name '*m'; ignoring AGL name 'uni03BC'
+groff-aarch64-unknown-linux-gnu> /tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/afmtodit: AGL name 'mu' already mapped to groff name 'mc'; ignoring AGL name 'uni03BC'
+groff-aarch64-unknown-linux-gnu> BuildFoundries: notice: generated U-HI
+groff-aarch64-unknown-linux-gnu> /tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/afmtodit: AGL name 'Delta' already mapped to groff name '*D'; ignoring AGL name 'uni0394'
+groff-aarch64-unknown-linux-gnu> /tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/afmtodit: AGL name 'mu' already mapped to groff name '*m'; ignoring AGL name 'uni03BC'
+groff-aarch64-unknown-linux-gnu> /tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/afmtodit: AGL name 'mu' already mapped to groff name 'mc'; ignoring AGL name 'uni03BC'
+groff-aarch64-unknown-linux-gnu> BuildFoundries: notice: generated U-HNB
+groff-aarch64-unknown-linux-gnu> /tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/afmtodit: AGL name 'Delta' already mapped to groff name '*D'; ignoring AGL name 'uni0394'
+groff-aarch64-unknown-linux-gnu> /tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/afmtodit: AGL name 'mu' already mapped to groff name '*m'; ignoring AGL name 'uni03BC'
+groff-aarch64-unknown-linux-gnu> /tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/afmtodit: AGL name 'mu' already mapped to groff name 'mc'; ignoring AGL name 'uni03BC'
+groff-aarch64-unknown-linux-gnu> BuildFoundries: notice: generated U-HNBI
+groff-aarch64-unknown-linux-gnu> /tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/afmtodit: AGL name 'Delta' already mapped to groff name '*D'; ignoring AGL name 'uni0394'
+groff-aarch64-unknown-linux-gnu> /tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/afmtodit: AGL name 'mu' already mapped to groff name '*m'; ignoring AGL name 'uni03BC'
+groff-aarch64-unknown-linux-gnu> /tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/afmtodit: AGL name 'mu' already mapped to groff name 'mc'; ignoring AGL name 'uni03BC'
+groff-aarch64-unknown-linux-gnu> BuildFoundries: notice: generated U-HNI
+groff-aarch64-unknown-linux-gnu> /tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/afmtodit: AGL name 'Delta' already mapped to groff name '*D'; ignoring AGL name 'uni0394'
+groff-aarch64-unknown-linux-gnu> /tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/afmtodit: AGL name 'mu' already mapped to groff name '*m'; ignoring AGL name 'uni03BC'
+groff-aarch64-unknown-linux-gnu> /tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/afmtodit: AGL name 'mu' already mapped to groff name 'mc'; ignoring AGL name 'uni03BC'
+groff-aarch64-unknown-linux-gnu> BuildFoundries: notice: generated U-HNR
+groff-aarch64-unknown-linux-gnu> /tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/afmtodit: AGL name 'Delta' already mapped to groff name '*D'; ignoring AGL name 'uni0394'
+groff-aarch64-unknown-linux-gnu> /tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/afmtodit: AGL name 'mu' already mapped to groff name '*m'; ignoring AGL name 'uni03BC'
+groff-aarch64-unknown-linux-gnu> /tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/afmtodit: AGL name 'mu' already mapped to groff name 'mc'; ignoring AGL name 'uni03BC'
+groff-aarch64-unknown-linux-gnu> BuildFoundries: notice: generated U-HR
+groff-aarch64-unknown-linux-gnu> /tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/afmtodit: AGL name 'Delta' already mapped to groff name '*D'; ignoring AGL name 'uni0394'
+groff-aarch64-unknown-linux-gnu> /tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/afmtodit: AGL name 'mu' already mapped to groff name '*m'; ignoring AGL name 'uni03BC'
+groff-aarch64-unknown-linux-gnu> /tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/afmtodit: AGL name 'mu' already mapped to groff name 'mc'; ignoring AGL name 'uni03BC'
+groff-aarch64-unknown-linux-gnu> BuildFoundries: notice: generated U-NB
+groff-aarch64-unknown-linux-gnu> /tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/afmtodit: AGL name 'Delta' already mapped to groff name '*D'; ignoring AGL name 'uni0394'
+groff-aarch64-unknown-linux-gnu> /tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/afmtodit: AGL name 'mu' already mapped to groff name '*m'; ignoring AGL name 'uni03BC'
+groff-aarch64-unknown-linux-gnu> /tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/afmtodit: AGL name 'mu' already mapped to groff name 'mc'; ignoring AGL name 'uni03BC'
+groff-aarch64-unknown-linux-gnu> BuildFoundries: notice: generated U-NBI
+groff-aarch64-unknown-linux-gnu> /tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/afmtodit: AGL name 'Delta' already mapped to groff name '*D'; ignoring AGL name 'uni0394'
+groff-aarch64-unknown-linux-gnu> /tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/afmtodit: AGL name 'mu' already mapped to groff name '*m'; ignoring AGL name 'uni03BC'
+groff-aarch64-unknown-linux-gnu> /tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/afmtodit: AGL name 'mu' already mapped to groff name 'mc'; ignoring AGL name 'uni03BC'
+groff-aarch64-unknown-linux-gnu> BuildFoundries: notice: generated U-NI
+groff-aarch64-unknown-linux-gnu> /tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/afmtodit: AGL name 'Delta' already mapped to groff name '*D'; ignoring AGL name 'uni0394'
+groff-aarch64-unknown-linux-gnu> /tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/afmtodit: AGL name 'mu' already mapped to groff name '*m'; ignoring AGL name 'uni03BC'
+groff-aarch64-unknown-linux-gnu> /tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/afmtodit: AGL name 'mu' already mapped to groff name 'mc'; ignoring AGL name 'uni03BC'
+groff-aarch64-unknown-linux-gnu> BuildFoundries: notice: generated U-NR
+groff-aarch64-unknown-linux-gnu> /tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/afmtodit: AGL name 'Delta' already mapped to groff name '*D'; ignoring AGL name 'uni0394'
+groff-aarch64-unknown-linux-gnu> /tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/afmtodit: AGL name 'mu' already mapped to groff name '*m'; ignoring AGL name 'uni03BC'
+groff-aarch64-unknown-linux-gnu> /tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/afmtodit: AGL name 'mu' already mapped to groff name 'mc'; ignoring AGL name 'uni03BC'
+groff-aarch64-unknown-linux-gnu> BuildFoundries: notice: generated U-PB
+groff-aarch64-unknown-linux-gnu> /tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/afmtodit: AGL name 'Delta' already mapped to groff name '*D'; ignoring AGL name 'uni0394'
+groff-aarch64-unknown-linux-gnu> /tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/afmtodit: AGL name 'mu' already mapped to groff name '*m'; ignoring AGL name 'uni03BC'
+groff-aarch64-unknown-linux-gnu> /tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/afmtodit: AGL name 'mu' already mapped to groff name 'mc'; ignoring AGL name 'uni03BC'
+groff-aarch64-unknown-linux-gnu> BuildFoundries: notice: generated U-PBI
+groff-aarch64-unknown-linux-gnu> /tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/afmtodit: AGL name 'Delta' already mapped to groff name '*D'; ignoring AGL name 'uni0394'
+groff-aarch64-unknown-linux-gnu> /tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/afmtodit: AGL name 'mu' already mapped to groff name '*m'; ignoring AGL name 'uni03BC'
+groff-aarch64-unknown-linux-gnu> /tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/afmtodit: AGL name 'mu' already mapped to groff name 'mc'; ignoring AGL name 'uni03BC'
+groff-aarch64-unknown-linux-gnu> BuildFoundries: notice: generated U-PI
+groff-aarch64-unknown-linux-gnu> /tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/afmtodit: AGL name 'Delta' already mapped to groff name '*D'; ignoring AGL name 'uni0394'
+groff-aarch64-unknown-linux-gnu> /tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/afmtodit: AGL name 'mu' already mapped to groff name '*m'; ignoring AGL name 'uni03BC'
+groff-aarch64-unknown-linux-gnu> /tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/afmtodit: AGL name 'mu' already mapped to groff name 'mc'; ignoring AGL name 'uni03BC'
+groff-aarch64-unknown-linux-gnu> BuildFoundries: notice: generated U-PR
+groff-aarch64-unknown-linux-gnu> BuildFoundries: notice: generated U-S
+groff-aarch64-unknown-linux-gnu> /tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/afmtodit: AGL name 'Delta' already mapped to groff name '*D'; ignoring AGL name 'uni0394'
+groff-aarch64-unknown-linux-gnu> /tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/afmtodit: AGL name 'mu' already mapped to groff name '*m'; ignoring AGL name 'uni03BC'
+groff-aarch64-unknown-linux-gnu> /tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/afmtodit: AGL name 'mu' already mapped to groff name 'mc'; ignoring AGL name 'uni03BC'
+groff-aarch64-unknown-linux-gnu> BuildFoundries: notice: generated U-TB
+groff-aarch64-unknown-linux-gnu> /tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/afmtodit: AGL name 'Delta' already mapped to groff name '*D'; ignoring AGL name 'uni0394'
+groff-aarch64-unknown-linux-gnu> /tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/afmtodit: AGL name 'mu' already mapped to groff name '*m'; ignoring AGL name 'uni03BC'
+groff-aarch64-unknown-linux-gnu> /tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/afmtodit: AGL name 'mu' already mapped to groff name 'mc'; ignoring AGL name 'uni03BC'
+groff-aarch64-unknown-linux-gnu> BuildFoundries: notice: generated U-TBI
+groff-aarch64-unknown-linux-gnu> /tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/afmtodit: AGL name 'Delta' already mapped to groff name '*D'; ignoring AGL name 'uni0394'
+groff-aarch64-unknown-linux-gnu> /tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/afmtodit: AGL name 'mu' already mapped to groff name '*m'; ignoring AGL name 'uni03BC'
+groff-aarch64-unknown-linux-gnu> /tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/afmtodit: AGL name 'mu' already mapped to groff name 'mc'; ignoring AGL name 'uni03BC'
+groff-aarch64-unknown-linux-gnu> BuildFoundries: notice: generated U-TI
+groff-aarch64-unknown-linux-gnu> /tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/afmtodit: AGL name 'Delta' already mapped to groff name '*D'; ignoring AGL name 'uni0394'
+groff-aarch64-unknown-linux-gnu> /tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/afmtodit: AGL name 'mu' already mapped to groff name '*m'; ignoring AGL name 'uni03BC'
+groff-aarch64-unknown-linux-gnu> /tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/afmtodit: AGL name 'mu' already mapped to groff name 'mc'; ignoring AGL name 'uni03BC'
+groff-aarch64-unknown-linux-gnu> BuildFoundries: notice: generated U-TR
+groff-aarch64-unknown-linux-gnu> /tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/afmtodit: AGL name 'Delta' already mapped to groff name '*D'; ignoring AGL name 'uni0394'
+groff-aarch64-unknown-linux-gnu> /tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/afmtodit: AGL name 'mu' already mapped to groff name '*m'; ignoring AGL name 'uni03BC'
+groff-aarch64-unknown-linux-gnu> /tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/afmtodit: AGL name 'mu' already mapped to groff name 'mc'; ignoring AGL name 'uni03BC'
+groff-aarch64-unknown-linux-gnu> BuildFoundries: notice: generated U-ZCMI
+groff-aarch64-unknown-linux-gnu> BuildFoundries: notice: generated U-ZD
+groff-aarch64-unknown-linux-gnu> make  all-am
+groff-aarch64-unknown-linux-gnu> make[1]: Entering directory '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0'
+groff-aarch64-unknown-linux-gnu>   CC       lib/asnprintf.o
+groff-aarch64-unknown-linux-gnu>   CC       lib/fprintf.o
+groff-aarch64-unknown-linux-gnu>   CC       lib/printf-args.o
+groff-aarch64-unknown-linux-gnu>   CC       lib/printf-parse.o
+groff-aarch64-unknown-linux-gnu>   CC       lib/vasnprintf.o
+groff-aarch64-unknown-linux-gnu>   GEN      src/libs/libgroff/version.cpp
+groff-aarch64-unknown-linux-gnu>   GEN      eqn2graph
+groff-aarch64-unknown-linux-gnu>   GEN      gdiffmk
+groff-aarch64-unknown-linux-gnu>   GEN      glilypond
+groff-aarch64-unknown-linux-gnu>   GEN      gperl
+groff-aarch64-unknown-linux-gnu>   GEN      gpinyin
+groff-aarch64-unknown-linux-gnu>   GEN      grap2graph
+groff-aarch64-unknown-linux-gnu>   GEN      pdfroff
+groff-aarch64-unknown-linux-gnu>   GEN      mmroff
+groff-aarch64-unknown-linux-gnu>   GEN      gropdf
+groff-aarch64-unknown-linux-gnu>   GEN      pic2graph
+groff-aarch64-unknown-linux-gnu>   GEN      pdfmom
+groff-aarch64-unknown-linux-gnu>   GEN      grog
+groff-aarch64-unknown-linux-gnu>   GEN      chem
+groff-aarch64-unknown-linux-gnu>   GEN      src/roff/troff/majorminor.cpp
+groff-aarch64-unknown-linux-gnu>   GEN      neqn
+groff-aarch64-unknown-linux-gnu>   GEN      nroff
+groff-aarch64-unknown-linux-gnu>   GEN      contrib/eqn2graph/eqn2graph.1
+groff-aarch64-unknown-linux-gnu>   GEN      contrib/gdiffmk/gdiffmk.1
+groff-aarch64-unknown-linux-gnu>   GEN      contrib/glilypond/glilypond.1
+groff-aarch64-unknown-linux-gnu>   GEN      contrib/chem/chem.1
+groff-aarch64-unknown-linux-gnu>   GEN      contrib/gperl/gperl.1
+groff-aarch64-unknown-linux-gnu>   GEN      contrib/gpinyin/gpinyin.1
+groff-aarch64-unknown-linux-gnu>   GEN      contrib/grap2graph/grap2graph.1
+groff-aarch64-unknown-linux-gnu>   GEN      contrib/mm/mmroff.1
+groff-aarch64-unknown-linux-gnu>   GEN      contrib/pic2graph/pic2graph.1
+groff-aarch64-unknown-linux-gnu>   GEN      contrib/pdfmark/pdfroff.1
+groff-aarch64-unknown-linux-gnu>   GEN      src/devices/grodvi/grodvi.1
+groff-aarch64-unknown-linux-gnu>   GEN      src/devices/grohtml/grohtml.1
+groff-aarch64-unknown-linux-gnu>   GEN      src/devices/grolbp/grolbp.1
+groff-aarch64-unknown-linux-gnu>   GEN      src/devices/grolj4/grolj4.1
+groff-aarch64-unknown-linux-gnu>   GEN      src/devices/gropdf/gropdf.1
+groff-aarch64-unknown-linux-gnu>   GEN      src/devices/gropdf/pdfmom.1
+groff-aarch64-unknown-linux-gnu>   GEN      src/devices/grops/grops.1
+groff-aarch64-unknown-linux-gnu>   GEN      src/devices/grotty/grotty.1
+groff-aarch64-unknown-linux-gnu>   GEN      src/preproc/preconv/preconv.1
+groff-aarch64-unknown-linux-gnu>   GEN      src/roff/groff/groff.1
+groff-aarch64-unknown-linux-gnu>   GEN      src/utils/addftinfo/addftinfo.1
+groff-aarch64-unknown-linux-gnu>   GEN      src/utils/afmtodit/afmtodit.1
+groff-aarch64-unknown-linux-gnu>   GEN      src/utils/grog/grog.1
+groff-aarch64-unknown-linux-gnu>   GEN      src/utils/hpftodit/hpftodit.1
+groff-aarch64-unknown-linux-gnu>   GEN      src/utils/lkbib/lkbib.1
+groff-aarch64-unknown-linux-gnu>   GEN      src/utils/pfbtops/pfbtops.1
+groff-aarch64-unknown-linux-gnu>   GEN      src/utils/tfmtodit/tfmtodit.1
+groff-aarch64-unknown-linux-gnu>   GEN      src/preproc/eqn/eqn.1
+groff-aarch64-unknown-linux-gnu>   GEN      src/preproc/eqn/neqn.1
+groff-aarch64-unknown-linux-gnu>   GEN      src/preproc/grn/grn.1
+groff-aarch64-unknown-linux-gnu>   GEN      src/preproc/refer/refer.1
+groff-aarch64-unknown-linux-gnu>   GEN      src/preproc/pic/pic.1
+groff-aarch64-unknown-linux-gnu>   GEN      src/preproc/soelim/soelim.1
+groff-aarch64-unknown-linux-gnu>   GEN      src/preproc/tbl/tbl.1
+groff-aarch64-unknown-linux-gnu>   GEN      src/roff/nroff/nroff.1
+groff-aarch64-unknown-linux-gnu>   GEN      src/roff/troff/troff.1
+groff-aarch64-unknown-linux-gnu>   GEN      src/utils/indxbib/indxbib.1
+groff-aarch64-unknown-linux-gnu>   GEN      src/utils/lookbib/lookbib.1
+groff-aarch64-unknown-linux-gnu>   GEN      man/groff_font.5
+groff-aarch64-unknown-linux-gnu>   GEN      man/groff_out.5
+groff-aarch64-unknown-linux-gnu>   GEN      man/groff_tmac.5
+groff-aarch64-unknown-linux-gnu>   GEN      contrib/hdtbl/groff_hdtbl.7
+groff-aarch64-unknown-linux-gnu>   GEN      contrib/mm/groff_mm.7
+groff-aarch64-unknown-linux-gnu>   GEN      contrib/mm/groff_mmse.7
+groff-aarch64-unknown-linux-gnu>   GEN      contrib/mom/groff_mom.7
+groff-aarch64-unknown-linux-gnu>   GEN      contrib/rfc1345/groff_rfc1345.7
+groff-aarch64-unknown-linux-gnu>   GEN      man/groff_char.7
+groff-aarch64-unknown-linux-gnu>   GEN      man/groff_diff.7
+groff-aarch64-unknown-linux-gnu>   GEN      man/groff.7
+groff-aarch64-unknown-linux-gnu>   GEN      man/roff.7
+groff-aarch64-unknown-linux-gnu>   GEN      tmac/groff_ms.7
+groff-aarch64-unknown-linux-gnu>   GEN      tmac/groff_me.7
+groff-aarch64-unknown-linux-gnu>   GEN      tmac/groff_mdoc.7
+groff-aarch64-unknown-linux-gnu>   GEN      tmac/groff_trace.7
+groff-aarch64-unknown-linux-gnu>   GEN      tmac/groff_www.7
+groff-aarch64-unknown-linux-gnu>   GEN      font/devascii/R
+groff-aarch64-unknown-linux-gnu>   GEN      font/devascii/I
+groff-aarch64-unknown-linux-gnu>   GEN      font/devascii/B
+groff-aarch64-unknown-linux-gnu>   GEN      font/devascii/DESC
+groff-aarch64-unknown-linux-gnu>   GEN      font/devascii/BI
+groff-aarch64-unknown-linux-gnu>   GEN      font/devcp1047/R
+groff-aarch64-unknown-linux-gnu>   GEN      font/devcp1047/I
+groff-aarch64-unknown-linux-gnu>   GEN      font/devcp1047/B
+groff-aarch64-unknown-linux-gnu>   GEN      font/devcp1047/BI
+groff-aarch64-unknown-linux-gnu>   GEN      font/devcp1047/DESC
+groff-aarch64-unknown-linux-gnu>   GEN      font/devdvi/DESC
+groff-aarch64-unknown-linux-gnu>   GEN      font/devhtml/R
+groff-aarch64-unknown-linux-gnu>   GEN      font/devhtml/I
+groff-aarch64-unknown-linux-gnu>   GEN      font/devhtml/B
+groff-aarch64-unknown-linux-gnu>   GEN      font/devhtml/CR
+groff-aarch64-unknown-linux-gnu>   GEN      font/devhtml/BI
+groff-aarch64-unknown-linux-gnu>   GEN      font/devhtml/CI
+groff-aarch64-unknown-linux-gnu>   GEN      font/devhtml/CB
+groff-aarch64-unknown-linux-gnu>   GEN      font/devhtml/CBI
+groff-aarch64-unknown-linux-gnu>   GEN      font/devhtml/S
+groff-aarch64-unknown-linux-gnu>   GEN      font/devhtml/DESC
+groff-aarch64-unknown-linux-gnu>   GEN      font/devlatin1/R
+groff-aarch64-unknown-linux-gnu>   GEN      font/devlatin1/I
+groff-aarch64-unknown-linux-gnu>   GEN      font/devlatin1/B
+groff-aarch64-unknown-linux-gnu>   GEN      font/devlatin1/BI
+groff-aarch64-unknown-linux-gnu>   GEN      font/devlatin1/DESC
+groff-aarch64-unknown-linux-gnu>   GEN      font/devlbp/DESC
+groff-aarch64-unknown-linux-gnu>   GEN      font/devutf8/R
+groff-aarch64-unknown-linux-gnu>   GEN      font/devutf8/I
+groff-aarch64-unknown-linux-gnu>   GEN      font/devutf8/BI
+groff-aarch64-unknown-linux-gnu>   GEN      font/devutf8/DESC
+groff-aarch64-unknown-linux-gnu>   GEN      font/devutf8/B
+groff-aarch64-unknown-linux-gnu>   GEN      contrib/chem/examples/README
+groff-aarch64-unknown-linux-gnu>   GEN      contrib/chem/examples/122/README
+groff-aarch64-unknown-linux-gnu>   GEN      font/devlj4/DESC
+groff-aarch64-unknown-linux-gnu>   GEN      font/devps/DESC
+groff-aarch64-unknown-linux-gnu>   GEN      font/devps/prologue
+groff-aarch64-unknown-linux-gnu>   GEN      font/devps/freeeuro.pfa
+groff-aarch64-unknown-linux-gnu>   GEN      font/devps/zapfdr.pfa
+groff-aarch64-unknown-linux-gnu>   GEN      font/devps/symbolsl.pfa
+groff-aarch64-unknown-linux-gnu>   GEN      contrib/hdtbl/examples/fonts_n.roff
+groff-aarch64-unknown-linux-gnu>   GEN      contrib/hdtbl/examples/fonts_x.roff
+groff-aarch64-unknown-linux-gnu>   GEN      tmac/www.tmac
+groff-aarch64-unknown-linux-gnu>   GROFF    doc/meref.me
+groff-aarch64-unknown-linux-gnu>   GROFF    doc/meintro.me
+groff-aarch64-unknown-linux-gnu>   GROFF    doc/meintro_fr.me
+groff-aarch64-unknown-linux-gnu>   CXX      src/devices/grodvi/dvi.o
+groff-aarch64-unknown-linux-gnu>   CXX      src/libs/libdriver/input.o
+groff-aarch64-unknown-linux-gnu>   CXX      src/libs/libdriver/printer.o
+groff-aarch64-unknown-linux-gnu>   CXX      src/libs/libgroff/libgroff_a-assert.o
+groff-aarch64-unknown-linux-gnu>   CXX      src/libs/libgroff/libgroff_a-change_lf.o
+groff-aarch64-unknown-linux-gnu>   CXX      src/libs/libgroff/libgroff_a-cmap.o
+groff-aarch64-unknown-linux-gnu>   CXX      src/libs/libgroff/libgroff_a-color.o
+groff-aarch64-unknown-linux-gnu>   CXX      src/libs/libgroff/libgroff_a-curtime.o
+groff-aarch64-unknown-linux-gnu>   CXX      src/libs/libgroff/libgroff_a-cset.o
+groff-aarch64-unknown-linux-gnu>   CXX      src/libs/libgroff/libgroff_a-device.o
+groff-aarch64-unknown-linux-gnu>   CXX      src/libs/libgroff/libgroff_a-errarg.o
+groff-aarch64-unknown-linux-gnu>   CXX      src/libs/libgroff/libgroff_a-error.o
+groff-aarch64-unknown-linux-gnu>   CXX      src/libs/libgroff/libgroff_a-fatal.o
+groff-aarch64-unknown-linux-gnu>   CXX      src/libs/libgroff/libgroff_a-filename.o
+groff-aarch64-unknown-linux-gnu>   GEN      contrib/sboxes/msboxes.ms
+groff-aarch64-unknown-linux-gnu>   CXX      src/libs/libgroff/libgroff_a-font.o
+groff-aarch64-unknown-linux-gnu>   CXX      src/libs/libgroff/libgroff_a-fontfile.o
+groff-aarch64-unknown-linux-gnu>   CXX      src/libs/libgroff/libgroff_a-geometry.o
+groff-aarch64-unknown-linux-gnu>   CC       src/libs/libgroff/libgroff_a-getopt.o
+groff-aarch64-unknown-linux-gnu>   CXX      src/libs/libgroff/libgroff_a-glyphuni.o
+groff-aarch64-unknown-linux-gnu>   CC       src/libs/libgroff/libgroff_a-getopt1.o
+groff-aarch64-unknown-linux-gnu>   CXX      src/libs/libgroff/libgroff_a-htmlhint.o
+groff-aarch64-unknown-linux-gnu>   CXX      src/libs/libgroff/libgroff_a-hypot.o
+groff-aarch64-unknown-linux-gnu>   CC       src/libs/libgroff/libgroff_a-iftoa.o
+groff-aarch64-unknown-linux-gnu>   CXX      src/libs/libgroff/libgroff_a-invalid.o
+groff-aarch64-unknown-linux-gnu>   CC       src/libs/libgroff/libgroff_a-itoa.o
+groff-aarch64-unknown-linux-gnu>   CXX      src/libs/libgroff/libgroff_a-lf.o
+groff-aarch64-unknown-linux-gnu>   CXX      src/libs/libgroff/libgroff_a-lineno.o
+groff-aarch64-unknown-linux-gnu>   CC       src/libs/libgroff/libgroff_a-localcharset.o
+groff-aarch64-unknown-linux-gnu>   CXX      src/libs/libgroff/libgroff_a-macropath.o
+groff-aarch64-unknown-linux-gnu>   CC       src/libs/libgroff/libgroff_a-matherr.o
+groff-aarch64-unknown-linux-gnu>   CXX      src/libs/libgroff/libgroff_a-maxfilename.o
+groff-aarch64-unknown-linux-gnu>   CXX      src/libs/libgroff/libgroff_a-maxpathname.o
+groff-aarch64-unknown-linux-gnu>   CXX      src/libs/libgroff/libgroff_a-mksdir.o
+groff-aarch64-unknown-linux-gnu>   CXX      src/libs/libgroff/libgroff_a-nametoindex.o
+groff-aarch64-unknown-linux-gnu>   CXX      src/libs/libgroff/libgroff_a-paper.o
+groff-aarch64-unknown-linux-gnu>   CXX      src/libs/libgroff/libgroff_a-prime.o
+groff-aarch64-unknown-linux-gnu>   CC       src/libs/libgroff/libgroff_a-progname.o
+groff-aarch64-unknown-linux-gnu>   CXX      src/libs/libgroff/libgroff_a-ptable.o
+groff-aarch64-unknown-linux-gnu>   CC       src/libs/libgroff/libgroff_a-quotearg.o
+groff-aarch64-unknown-linux-gnu>   CXX      src/libs/libgroff/libgroff_a-relocate.o
+groff-aarch64-unknown-linux-gnu>   CXX      src/libs/libgroff/libgroff_a-searchpath.o
+groff-aarch64-unknown-linux-gnu>   CC       src/libs/libgroff/libgroff_a-spawnvp.o
+groff-aarch64-unknown-linux-gnu>   CXX      src/libs/libgroff/libgroff_a-string.o
+groff-aarch64-unknown-linux-gnu>   CXX      src/libs/libgroff/libgroff_a-strsave.o
+groff-aarch64-unknown-linux-gnu>   CXX      src/libs/libgroff/libgroff_a-symbol.o
+groff-aarch64-unknown-linux-gnu>   CXX      src/libs/libgroff/libgroff_a-tmpfile.o
+groff-aarch64-unknown-linux-gnu>   CXX      src/libs/libgroff/libgroff_a-tmpname.o
+groff-aarch64-unknown-linux-gnu>   CXX      src/libs/libgroff/libgroff_a-unicode.o
+groff-aarch64-unknown-linux-gnu>   CXX      src/libs/libgroff/libgroff_a-uniglyph.o
+groff-aarch64-unknown-linux-gnu>   CXX      src/libs/libgroff/libgroff_a-uniuni.o
+groff-aarch64-unknown-linux-gnu>   CXX      src/libs/libgroff/libgroff_a-version.o
+groff-aarch64-unknown-linux-gnu>   CC       lib/libgnu_a-fseterr.o
+groff-aarch64-unknown-linux-gnu>   CC       lib/libgnu_a-localcharset.o
+groff-aarch64-unknown-linux-gnu>   CC       lib/libgnu_a-math.o
+groff-aarch64-unknown-linux-gnu>   CC       lib/libgnu_a-memchr.o
+groff-aarch64-unknown-linux-gnu>   CC       lib/libgnu_a-printf-frexp.o
+groff-aarch64-unknown-linux-gnu>   CC       lib/libgnu_a-printf-frexpl.o
+groff-aarch64-unknown-linux-gnu>   CC       lib/libgnu_a-unistd.o
+groff-aarch64-unknown-linux-gnu>   CC       lib/uniwidth/libgnu_a-width.o
+groff-aarch64-unknown-linux-gnu>   CC       lib/libgnu_a-xsize.o
+groff-aarch64-unknown-linux-gnu>   CXX      src/devices/grohtml/post-html.o
+groff-aarch64-unknown-linux-gnu>   CXX      src/devices/grohtml/html-table.o
+groff-aarch64-unknown-linux-gnu>   CC       lib/libgnu_a-wctype-h.o
+groff-aarch64-unknown-linux-gnu>   CXX      src/devices/grohtml/html-text.o
+groff-aarch64-unknown-linux-gnu>   CXX      src/devices/grohtml/output.o
+groff-aarch64-unknown-linux-gnu>   CXX      src/devices/grolbp/lbp.o
+groff-aarch64-unknown-linux-gnu>   CXX      src/devices/grolj4/lj4.o
+groff-aarch64-unknown-linux-gnu>   CXX      src/devices/grops/ps.o
+groff-aarch64-unknown-linux-gnu>   CXX      src/devices/grops/psrm.o
+groff-aarch64-unknown-linux-gnu>   CXX      src/devices/grotty/tty.o
+groff-aarch64-unknown-linux-gnu>   CXX      src/preproc/html/pre-html.o
+groff-aarch64-unknown-linux-gnu>   CXX      src/preproc/html/pushback.o
+groff-aarch64-unknown-linux-gnu>   CXX      src/preproc/preconv/preconv-preconv.o
+groff-aarch64-unknown-linux-gnu>   CXX      src/roff/groff/groff.o
+groff-aarch64-unknown-linux-gnu>   CC       src/roff/groff/pipeline.o
+groff-aarch64-unknown-linux-gnu>   CXX      src/utils/addftinfo/addftinfo.o
+groff-aarch64-unknown-linux-gnu>   CXX      src/utils/addftinfo/guess.o
+groff-aarch64-unknown-linux-gnu>   CXX      src/utils/hpftodit/hpftodit.o
+groff-aarch64-unknown-linux-gnu> In file included from /nix/store/2w162nasw77s5la3g1c3pygim2fwhhw3-aarch64-unknown-linux-gnu-gcc-13.3.0/aarch64-unknown-linux-gnu/sys-include/stdio.h:970,
+groff-aarch64-unknown-linux-gnu>                  from ./lib/stdio.h:43,
+groff-aarch64-unknown-linux-gnu>                  from ./src/include/getopt.h:35,
+groff-aarch64-unknown-linux-gnu>                  from ./src/include/lib.h:44,
+groff-aarch64-unknown-linux-gnu>                  from src/preproc/html/pre-html.cpp:24:
+groff-aarch64-unknown-linux-gnu> In function 'int vsnprintf(char*, size_t, const char*, __gnuc_va_list)',
+groff-aarch64-unknown-linux-gnu>     inlined from 'char* make_string(const char*, ...)' at src/preproc/html/pre-html.cpp:408:16:
+groff-aarch64-unknown-linux-gnu> /nix/store/2w162nasw77s5la3g1c3pygim2fwhhw3-aarch64-unknown-linux-gnu-gcc-13.3.0/aarch64-unknown-linux-gnu/sys-include/bits/stdio2.h:100:36: warning: null destination pointer [8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-truncation=-Wformat-truncation=8;;]
+groff-aarch64-unknown-linux-gnu>   100 |   return __builtin___vsnprintf_chk (__s, __n, __USE_FORTIFY_LEVEL - 1,
+groff-aarch64-unknown-linux-gnu>       |          ~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+groff-aarch64-unknown-linux-gnu>   101 |                                     __glibc_objsize (__s), __fmt, __ap);
+groff-aarch64-unknown-linux-gnu>       |                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+groff-aarch64-unknown-linux-gnu>   CXX      src/utils/hpftodit/hpuni.o
+groff-aarch64-unknown-linux-gnu>   CXX      src/utils/lkbib/lkbib.o
+groff-aarch64-unknown-linux-gnu>   CXX      src/libs/libbib/common.o
+groff-aarch64-unknown-linux-gnu>   CXX      src/libs/libbib/index.o
+groff-aarch64-unknown-linux-gnu>   CXX      src/libs/libbib/linear.o
+groff-aarch64-unknown-linux-gnu>   CXX      src/libs/libbib/search.o
+groff-aarch64-unknown-linux-gnu>   CC       src/libs/libbib/map.o
+groff-aarch64-unknown-linux-gnu>   CC       src/utils/pfbtops/pfbtops.o
+groff-aarch64-unknown-linux-gnu>   CXX      src/utils/tfmtodit/tfmtodit.o
+groff-aarch64-unknown-linux-gnu>   CXX      src/preproc/eqn/eqn-main.o
+groff-aarch64-unknown-linux-gnu>   CXX      src/preproc/eqn/eqn-lex.o
+groff-aarch64-unknown-linux-gnu>   CXX      src/preproc/eqn/eqn-box.o
+groff-aarch64-unknown-linux-gnu>   CXX      src/preproc/eqn/eqn-limit.o
+groff-aarch64-unknown-linux-gnu>   CXX      src/preproc/eqn/eqn-list.o
+groff-aarch64-unknown-linux-gnu>   CXX      src/preproc/eqn/eqn-over.o
+groff-aarch64-unknown-linux-gnu>   CXX      src/preproc/eqn/eqn-text.o
+groff-aarch64-unknown-linux-gnu>   CXX      src/preproc/eqn/eqn-script.o
+groff-aarch64-unknown-linux-gnu>   CXX      src/preproc/eqn/eqn-mark.o
+groff-aarch64-unknown-linux-gnu>   CXX      src/preproc/eqn/eqn-other.o
+groff-aarch64-unknown-linux-gnu>   CXX      src/preproc/eqn/eqn-delim.o
+groff-aarch64-unknown-linux-gnu>   CXX      src/preproc/eqn/eqn-sqrt.o
+groff-aarch64-unknown-linux-gnu>   CXX      src/preproc/eqn/eqn-pile.o
+groff-aarch64-unknown-linux-gnu>   CXX      src/preproc/eqn/eqn-special.o
+groff-aarch64-unknown-linux-gnu>   CXX      src/preproc/eqn/eqn-eqn.o
+groff-aarch64-unknown-linux-gnu>   CXX      src/preproc/grn/hdb.o
+groff-aarch64-unknown-linux-gnu>   CXX      src/preproc/grn/hpoint.o
+groff-aarch64-unknown-linux-gnu>   CXX      src/preproc/grn/hgraph.o
+groff-aarch64-unknown-linux-gnu>   CXX      src/preproc/grn/main.o
+groff-aarch64-unknown-linux-gnu>   CXX      src/preproc/pic/pic-pic.o
+groff-aarch64-unknown-linux-gnu>   CXX      src/preproc/pic/pic-lex.o
+groff-aarch64-unknown-linux-gnu>   CXX      src/preproc/pic/pic-main.o
+groff-aarch64-unknown-linux-gnu>   CXX      src/preproc/pic/pic-object.o
+groff-aarch64-unknown-linux-gnu>   CXX      src/preproc/pic/pic-common.o
+groff-aarch64-unknown-linux-gnu>   CXX      src/preproc/pic/pic-troff.o
+groff-aarch64-unknown-linux-gnu>   CXX      src/preproc/pic/pic-tex.o
+groff-aarch64-unknown-linux-gnu>   CXX      src/preproc/refer/refer-command.o
+groff-aarch64-unknown-linux-gnu>   CXX      src/preproc/refer/refer-ref.o
+groff-aarch64-unknown-linux-gnu>   CXX      src/preproc/refer/refer-refer.o
+groff-aarch64-unknown-linux-gnu>   CXX      src/preproc/refer/refer-token.o
+groff-aarch64-unknown-linux-gnu>   CXX      src/preproc/refer/refer-label.o
+groff-aarch64-unknown-linux-gnu>   CXX      src/preproc/soelim/soelim.o
+groff-aarch64-unknown-linux-gnu>   CXX      src/preproc/tbl/main.o
+groff-aarch64-unknown-linux-gnu>   CXX      src/preproc/tbl/table.o
+groff-aarch64-unknown-linux-gnu>   CXX      src/roff/troff/dictionary.o
+groff-aarch64-unknown-linux-gnu>   CXX      src/roff/troff/div.o
+groff-aarch64-unknown-linux-gnu>   CXX      src/roff/troff/env.o
+groff-aarch64-unknown-linux-gnu>   CXX      src/roff/troff/input.o
+groff-aarch64-unknown-linux-gnu>   CXX      src/roff/troff/mtsm.o
+groff-aarch64-unknown-linux-gnu>   CXX      src/roff/troff/node.o
+groff-aarch64-unknown-linux-gnu>   CXX      src/roff/troff/number.o
+groff-aarch64-unknown-linux-gnu>   CXX      src/roff/troff/reg.o
+groff-aarch64-unknown-linux-gnu>   CXX      src/roff/troff/majorminor.o
+groff-aarch64-unknown-linux-gnu>   CXX      src/utils/indxbib/indxbib.o
+groff-aarch64-unknown-linux-gnu>   CC       src/utils/indxbib/signal.o
+groff-aarch64-unknown-linux-gnu>   CXX      src/utils/lookbib/lookbib.o
+groff-aarch64-unknown-linux-gnu>   GEN      tmac/groff_man.7.man
+groff-aarch64-unknown-linux-gnu>   GEN      tmac/groff_man_style.7.man
+groff-aarch64-unknown-linux-gnu>   AR       libdriver.a
+groff-aarch64-unknown-linux-gnu>   AR       libgroff.a
+groff-aarch64-unknown-linux-gnu>   AR       lib/libgnu.a
+groff-aarch64-unknown-linux-gnu>   AR       libbib.a
+groff-aarch64-unknown-linux-gnu>   GEN      tmac/groff_man.7
+groff-aarch64-unknown-linux-gnu>   GEN      tmac/groff_man_style.7
+groff-aarch64-unknown-linux-gnu>   CXXLD    grodvi
+groff-aarch64-unknown-linux-gnu>   CXXLD    post-grohtml
+groff-aarch64-unknown-linux-gnu>   CXXLD    grolbp
+groff-aarch64-unknown-linux-gnu>   CXXLD    grolj4
+groff-aarch64-unknown-linux-gnu>   CXXLD    grops
+groff-aarch64-unknown-linux-gnu>   CXXLD    grotty
+groff-aarch64-unknown-linux-gnu>   CXXLD    pre-grohtml
+groff-aarch64-unknown-linux-gnu>   CXXLD    preconv
+groff-aarch64-unknown-linux-gnu>   CXXLD    groff
+groff-aarch64-unknown-linux-gnu>   CXXLD    addftinfo
+groff-aarch64-unknown-linux-gnu>   CXXLD    hpftodit
+groff-aarch64-unknown-linux-gnu>   CXXLD    pfbtops
+groff-aarch64-unknown-linux-gnu>   CXXLD    lkbib
+groff-aarch64-unknown-linux-gnu>   CXXLD    tfmtodit
+groff-aarch64-unknown-linux-gnu>   CXXLD    eqn
+groff-aarch64-unknown-linux-gnu>   CXXLD    grn
+groff-aarch64-unknown-linux-gnu>   CXXLD    refer
+groff-aarch64-unknown-linux-gnu>   CXXLD    soelim
+groff-aarch64-unknown-linux-gnu>   CXXLD    lookbib
+groff-aarch64-unknown-linux-gnu>   CXXLD    indxbib
+groff-aarch64-unknown-linux-gnu>   CXXLD    pic
+groff-aarch64-unknown-linux-gnu>   CXXLD    tbl
+groff-aarch64-unknown-linux-gnu>   CXXLD    troff
+groff-aarch64-unknown-linux-gnu>   GROFF    doc/webpage.ps
+groff-aarch64-unknown-linux-gnu>   GROFF    doc/grnexmpl.ps
+groff-aarch64-unknown-linux-gnu>   GROFF    doc/automake.pdf
+groff-aarch64-unknown-linux-gnu>   GROFF    contrib/hdtbl/examples/chess_board.ps
+groff-aarch64-unknown-linux-gnu>   GROFF    contrib/hdtbl/examples/color_boxes.ps
+groff-aarch64-unknown-linux-gnu>   GROFF    contrib/hdtbl/examples/color_nested_tables.ps
+groff-aarch64-unknown-linux-gnu>   GROFF    contrib/hdtbl/examples/color_table_cells.ps
+groff-aarch64-unknown-linux-gnu>   GROFF    contrib/hdtbl/examples/color_transitions.ps
+groff-aarch64-unknown-linux-gnu>   GROFF    contrib/hdtbl/examples/col_rowspan_colors.ps
+groff-aarch64-unknown-linux-gnu>   GROFF    contrib/hdtbl/examples/fonts_n.ps
+groff-aarch64-unknown-linux-gnu>   GROFF    contrib/hdtbl/examples/fonts_x.ps
+groff-aarch64-unknown-linux-gnu>   GROFF    contrib/hdtbl/examples/mixed_pickles.ps
+groff-aarch64-unknown-linux-gnu>   GROFF    contrib/hdtbl/examples/rainbow.ps
+groff-aarch64-unknown-linux-gnu>   GROFF    contrib/hdtbl/examples/short_reference.ps
+groff-aarch64-unknown-linux-gnu>   GROFF    contrib/mom/examples/letter.pdf
+groff-aarch64-unknown-linux-gnu>   GROFF    contrib/mom/examples/mom-pdf.pdf
+groff-aarch64-unknown-linux-gnu> fonts_n.roff: listing fonts in ./font/devps
+groff-aarch64-unknown-linux-gnu>   GROFF    contrib/mom/examples/mon_premier_doc.pdf
+groff-aarch64-unknown-linux-gnu> fonts_x.roff: listing fonts in ./font/devps
+groff-aarch64-unknown-linux-gnu> fonts_n.roff: listing font 'AB'...
+groff-aarch64-unknown-linux-gnu>   GROFF    contrib/mom/examples/sample_docs.pdf
+groff-aarch64-unknown-linux-gnu>   GROFF    contrib/mom/examples/slide-demo.pdf
+groff-aarch64-unknown-linux-gnu>   GROFF    contrib/mom/examples/copyright-default.pdf
+groff-aarch64-unknown-linux-gnu> groff: error: couldn't exec gropdf: No such file or directory
+groff-aarch64-unknown-linux-gnu>   GROFF    contrib/mom/examples/copyright-chapter.pdf
+groff-aarch64-unknown-linux-gnu> groff: error: couldn't exec gropdf: No such file or directory
+groff-aarch64-unknown-linux-gnu> groff: error: couldn't exec gropdf: No such file or directory
+groff-aarch64-unknown-linux-gnu> fonts_x.roff: listing font 'AB'...
+groff-aarch64-unknown-linux-gnu> troff:./contrib/mom/om.tmac:18334: fatal error: unable to flush output file: Broken pipe
+groff-aarch64-unknown-linux-gnu> groff: error: troff: Segmentation fault
+groff-aarch64-unknown-linux-gnu>   GROFF    contrib/mom/examples/typesetting.pdf
+groff-aarch64-unknown-linux-gnu>   GROFF    doc/meref.ps
+groff-aarch64-unknown-linux-gnu>   GROFF    doc/meintro.ps
+groff-aarch64-unknown-linux-gnu> troff:./contrib/mom/om.tmac:18334: fatal error: unable to flush output file: Broken pipe
+groff-aarch64-unknown-linux-gnu> groff: error: troff: Segmentation fault
+groff-aarch64-unknown-linux-gnu> troff:./contrib/mom/om.tmac:18334: fatal error: unable to flush output file: Broken pipe
+groff-aarch64-unknown-linux-gnu> groff: error: troff: Segmentation fault
+groff-aarch64-unknown-linux-gnu> groff: error: couldn't exec gropdf: No such file or directory
+groff-aarch64-unknown-linux-gnu> groff: error: couldn't exec gropdf: No such file or directory
+groff-aarch64-unknown-linux-gnu> groff: error: couldn't exec gropdf: No such file or directory
+groff-aarch64-unknown-linux-gnu> groff: error: couldn't exec gropdf: No such file or directory
+groff-aarch64-unknown-linux-gnu>   GROFF    doc/meintro_fr.ps
+groff-aarch64-unknown-linux-gnu> troff:./contrib/mom/om.tmac:18334: fatal error: unable to flush output file: Broken pipe
+groff-aarch64-unknown-linux-gnu> groff: error: troff: Segmentation fault
+groff-aarch64-unknown-linux-gnu> troff:./contrib/mom/om.tmac:18334: fatal error: unable to flush output file: Broken pipe
+groff-aarch64-unknown-linux-gnu> groff: error: troff: Segmentation fault
+groff-aarch64-unknown-linux-gnu> groff: error: couldn't exec gropdf: No such file or directory
+groff-aarch64-unknown-linux-gnu>   GROFF    doc/ms.ps
+groff-aarch64-unknown-linux-gnu> troff:./contrib/mom/om.tmac:18334: fatal error: unable to flush output file: Broken pipe
+groff-aarch64-unknown-linux-gnu> groff: error: troff: Segmentation fault
+groff-aarch64-unknown-linux-gnu> fonts_x.roff: listing font 'ABI'...
+groff-aarch64-unknown-linux-gnu> troff:./contrib/mom/om.tmac:18334: fatal error: unable to flush output file: Broken pipe
+groff-aarch64-unknown-linux-gnu> groff: error: troff: Segmentation fault
+groff-aarch64-unknown-linux-gnu> groff: error: couldn't exec gropdf: No such file or directory
+groff-aarch64-unknown-linux-gnu>   GROFF    doc/pic.ps
+groff-aarch64-unknown-linux-gnu> troff:./contrib/mom/om.tmac:18334: fatal error: unable to flush output file: Broken pipe
+groff-aarch64-unknown-linux-gnu> groff: error: troff: Segmentation fault
+groff-aarch64-unknown-linux-gnu> eqn: fatal error: unable to flush standard output stream: Broken pipe
+groff-aarch64-unknown-linux-gnu>   GROFF    doc/groff-man-pages.pdf
+groff-aarch64-unknown-linux-gnu>   GROFF    doc/groff-man-pages.utf8.txt
+groff-aarch64-unknown-linux-gnu> fonts_n.roff: listing font 'ABI'...
+groff-aarch64-unknown-linux-gnu> /nix/store/pf3krkihiaqgap8kdwqia4xwxgx8zdzk-groff-1.23.0/bin/groff: error: couldn't exec gropdf: No such file or directory
+groff-aarch64-unknown-linux-gnu>   GROFF    contrib/sboxes/msboxes.pdf
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/pdf.tmac':257: macro 'pdfbookmark'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':208: macro 'an*bookmark'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':423: macro 'PT'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':586: macro 'an-header'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':353: string 'TH'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/andoc.tmac':96: macro 'TH'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'src/utils/addftinfo/addftinfo.1':1
+groff-aarch64-unknown-linux-gnu> troff:src/utils/addftinfo/addftinfo.1:1: fatal error: unable to flush output file: Broken pipe
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':743: macro 'I'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'src/utils/afmtodit/afmtodit.1':226
+groff-aarch64-unknown-linux-gnu> troff:src/utils/afmtodit/afmtodit.1:226: warning [p 2, 9.2i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':743: macro 'I'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'src/utils/afmtodit/afmtodit.1':228
+groff-aarch64-unknown-linux-gnu> troff:src/utils/afmtodit/afmtodit.1:228: warning [p 2, 9.5i]: cannot break line
+groff-aarch64-unknown-linux-gnu> /nix/store/pf3krkihiaqgap8kdwqia4xwxgx8zdzk-groff-1.23.0/bin/groff: error: couldn't exec gropdf: No such file or directory
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':743: macro 'I'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'src/utils/afmtodit/afmtodit.1':488
+groff-aarch64-unknown-linux-gnu> troff:src/utils/afmtodit/afmtodit.1:488: warning [p 4, 2.0i, div 'an-div', 0.2i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':910: macro 'IR'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'src/utils/afmtodit/afmtodit.1':495
+groff-aarch64-unknown-linux-gnu> troff:src/utils/afmtodit/afmtodit.1:495: warning [p 4, 2.8i, div 'an-div', 0.2i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':743: macro 'I'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'src/utils/afmtodit/afmtodit.1':503
+groff-aarch64-unknown-linux-gnu> troff:src/utils/afmtodit/afmtodit.1:503: warning [p 4, 3.7i, div 'an-div', 0.2i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':743: macro 'I'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'src/utils/afmtodit/afmtodit.1':509
+groff-aarch64-unknown-linux-gnu> troff:src/utils/afmtodit/afmtodit.1:509: warning [p 4, 4.7i, div 'an-div', 0.2i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':743: macro 'I'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'src/utils/afmtodit/afmtodit.1':511
+groff-aarch64-unknown-linux-gnu> troff:src/utils/afmtodit/afmtodit.1:511: warning [p 4, 5.2i, div 'an-div', 0.2i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':743: macro 'I'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'src/utils/afmtodit/afmtodit.1':513
+groff-aarch64-unknown-linux-gnu> troff:src/utils/afmtodit/afmtodit.1:513: warning [p 4, 5.7i, div 'an-div', 0.2i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':743: macro 'I'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'src/utils/afmtodit/afmtodit.1':515
+groff-aarch64-unknown-linux-gnu> troff:src/utils/afmtodit/afmtodit.1:515: warning [p 4, 6.2i, div 'an-div', 0.2i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':743: macro 'I'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'src/utils/afmtodit/afmtodit.1':517
+groff-aarch64-unknown-linux-gnu> troff:src/utils/afmtodit/afmtodit.1:517: warning [p 4, 6.7i, div 'an-div', 0.2i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff:./contrib/mom/om.tmac:18334: fatal error: unable to flush output file: Broken pipe
+groff-aarch64-unknown-linux-gnu> groff: error: troff: Segmentation fault
+groff-aarch64-unknown-linux-gnu> eqn: fatal error: standard output stream is in an error state
+groff-aarch64-unknown-linux-gnu> /nix/store/pf3krkihiaqgap8kdwqia4xwxgx8zdzk-groff-1.23.0/bin/groff: error: troff: Segmentation fault
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':743: macro 'I'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'contrib/chem/chem.1':848
+groff-aarch64-unknown-linux-gnu> troff:contrib/chem/chem.1:848: warning [p 33, 0.7i, div 'an-div', 0.2i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':743: macro 'I'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'contrib/chem/chem.1':855
+groff-aarch64-unknown-linux-gnu> troff:contrib/chem/chem.1:855: warning [p 33, 1.5i, div 'an-div', 0.2i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':904: string 'an-result'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':910: macro 'IR'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'contrib/chem/chem.1':866
+groff-aarch64-unknown-linux-gnu> troff:contrib/chem/chem.1:866: warning [p 34, 0.3i, div 'an-div', 0.2i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':904: string 'an-result'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':910: macro 'IR'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'contrib/chem/chem.1':871
+groff-aarch64-unknown-linux-gnu> troff:contrib/chem/chem.1:871: warning [p 34, 1.2i, div 'an-div', 0.2i]: cannot break line
+groff-aarch64-unknown-linux-gnu> eqn: fatal error: standard output stream is in an error state
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/s.tmac':95: macro 'cov*tl-div'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/s.tmac':451: macro 'cov*tl-au-print'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/s.tmac':436: macro 'cov*draft-print'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/s.tmac':383: macro 'cov*print'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/s.tmac':280: macro 'LP'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file './contrib/sboxes/msboxes.ms':40
+groff-aarch64-unknown-linux-gnu> troff:./contrib/sboxes/msboxes.ms:40: fatal error: unable to flush output file: Broken pipe
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':910: macro 'IR'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'src/preproc/eqn/eqn.1':171
+groff-aarch64-unknown-linux-gnu> troff:src/preproc/eqn/eqn.1:171: warning [p 37, 2.0i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':910: macro 'IR'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'src/preproc/eqn/eqn.1':173
+groff-aarch64-unknown-linux-gnu> troff:src/preproc/eqn/eqn.1:173: warning [p 37, 2.3i]: cannot adjust line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':910: macro 'IR'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'src/preproc/eqn/eqn.1':173
+groff-aarch64-unknown-linux-gnu> troff:src/preproc/eqn/eqn.1:173: warning [p 37, 2.5i]: cannot break line
+groff-aarch64-unknown-linux-gnu> /nix/store/pf3krkihiaqgap8kdwqia4xwxgx8zdzk-groff-1.23.0/bin/groff: error: troff: Segmentation fault
+groff-aarch64-unknown-linux-gnu> make[1]: *** [Makefile:14238: contrib/sboxes/msboxes.pdf] Error 6
+groff-aarch64-unknown-linux-gnu> make[1]: *** Deleting file 'contrib/sboxes/msboxes.pdf'
+groff-aarch64-unknown-linux-gnu> make[1]: *** Waiting for unfinished jobs....
+groff-aarch64-unknown-linux-gnu> eqn: fatal error: standard output stream is in an error state
+groff-aarch64-unknown-linux-gnu> eqn: fatal error: standard output stream is in an error state
+groff-aarch64-unknown-linux-gnu> fonts_x.roff: listing font 'AI'...
+groff-aarch64-unknown-linux-gnu> eqn: fatal error: standard output stream is in an error state
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':743: macro 'I'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'src/preproc/eqn/eqn.1':1882
+groff-aarch64-unknown-linux-gnu> troff:src/preproc/eqn/eqn.1:1882: warning [p 58, 3.7i, div 'an-div', 0.2i]: cannot break line
+groff-aarch64-unknown-linux-gnu> eqn: fatal error: standard output stream is in an error state
+groff-aarch64-unknown-linux-gnu> eqn: fatal error: standard output stream is in an error state
+groff-aarch64-unknown-linux-gnu> make[1]: *** [Makefile:14278: doc/groff-man-pages.pdf] Error 7
+groff-aarch64-unknown-linux-gnu> make[1]: *** Deleting file 'doc/groff-man-pages.pdf'
+groff-aarch64-unknown-linux-gnu> fonts_n.roff: listing font 'AI'...
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':910: macro 'IR'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'src/preproc/grn/grn.1':885
+groff-aarch64-unknown-linux-gnu> troff:src/preproc/grn/grn.1:885: warning [p 121, 4.0i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':910: macro 'IR'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'src/preproc/grn/grn.1':886
+groff-aarch64-unknown-linux-gnu> troff:src/preproc/grn/grn.1:886: warning [p 121, 4.3i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':910: macro 'IR'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'src/preproc/grn/grn.1':902
+groff-aarch64-unknown-linux-gnu> troff:src/preproc/grn/grn.1:902: warning [p 121, 5.2i]: cannot adjust line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':910: macro 'IR'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'src/preproc/grn/grn.1':902
+groff-aarch64-unknown-linux-gnu> troff:src/preproc/grn/grn.1:902: warning [p 121, 5.3i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':910: macro 'IR'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'src/preproc/grn/grn.1':904
+groff-aarch64-unknown-linux-gnu> troff:src/preproc/grn/grn.1:904: warning [p 121, 5.7i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':904: string 'an-result'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':910: macro 'IR'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'src/preproc/grn/grn.1':943
+groff-aarch64-unknown-linux-gnu> troff:src/preproc/grn/grn.1:943: warning [p 121, 6.8i, div 'an-div', 0.2i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':743: macro 'I'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'src/devices/grodvi/grodvi.1':536
+groff-aarch64-unknown-linux-gnu> troff:src/devices/grodvi/grodvi.1:536: warning [p 130, 3.2i, div 'an-div', 0.2i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':910: macro 'IR'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'src/devices/grodvi/grodvi.1':543
+groff-aarch64-unknown-linux-gnu> troff:src/devices/grodvi/grodvi.1:543: warning [p 131, 0.3i, div 'an-div', 0.2i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':743: macro 'I'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'src/devices/grodvi/grodvi.1':551
+groff-aarch64-unknown-linux-gnu> troff:src/devices/grodvi/grodvi.1:551: warning [p 131, 1.2i, div 'an-div', 0.2i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':743: macro 'I'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'src/devices/grodvi/grodvi.1':566
+groff-aarch64-unknown-linux-gnu> troff:src/devices/grodvi/grodvi.1:566: warning [p 131, 2.3i, div 'an-div', 0.2i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':1121: macro 'an*end-hyperlink'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':1160: macro 'UE'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'src/roff/groff/groff.1':1218
+groff-aarch64-unknown-linux-gnu> troff:src/roff/groff/groff.1:1218: warning [p 145, 5.2i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':910: macro 'IR'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'src/roff/groff/groff.1':1732
+groff-aarch64-unknown-linux-gnu> troff:src/roff/groff/groff.1:1732: warning [p 151, 3.2i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':743: macro 'I'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'src/roff/groff/groff.1':2063
+groff-aarch64-unknown-linux-gnu> troff:src/roff/groff/groff.1:2063: warning [p 154, 1.3i, div 'an-div', 0.2i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':743: macro 'I'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'src/roff/groff/groff.1':2070
+groff-aarch64-unknown-linux-gnu> troff:src/roff/groff/groff.1:2070: warning [p 154, 2.2i, div 'an-div', 0.2i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':743: macro 'I'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'src/roff/groff/groff.1':2076
+groff-aarch64-unknown-linux-gnu> troff:src/roff/groff/groff.1:2076: warning [p 154, 3.0i, div 'an-div', 0.2i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':743: macro 'I'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'src/roff/groff/groff.1':2089
+groff-aarch64-unknown-linux-gnu> troff:src/roff/groff/groff.1:2089: warning [p 154, 4.3i, div 'an-div', 0.2i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':743: macro 'I'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'src/roff/groff/groff.1':2094
+groff-aarch64-unknown-linux-gnu> troff:src/roff/groff/groff.1:2094: warning [p 154, 5.2i, div 'an-div', 0.2i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':743: macro 'I'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'src/roff/groff/groff.1':2099
+groff-aarch64-unknown-linux-gnu> troff:src/roff/groff/groff.1:2099: warning [p 154, 6.0i, div 'an-div', 0.2i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':743: macro 'I'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'src/roff/groff/groff.1':2104
+groff-aarch64-unknown-linux-gnu> troff:src/roff/groff/groff.1:2104: warning [p 155, 0.3i, div 'an-div', 0.2i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':743: macro 'I'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'src/roff/groff/groff.1':2114
+groff-aarch64-unknown-linux-gnu> troff:src/roff/groff/groff.1:2114: warning [p 155, 1.7i, div 'an-div', 0.2i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':743: macro 'I'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'src/roff/groff/groff.1':2119
+groff-aarch64-unknown-linux-gnu> troff:src/roff/groff/groff.1:2119: warning [p 155, 2.5i, div 'an-div', 0.2i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':743: macro 'I'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'src/roff/groff/groff.1':2126
+groff-aarch64-unknown-linux-gnu> troff:src/roff/groff/groff.1:2126: warning [p 155, 3.3i, div 'an-div', 0.2i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':743: macro 'I'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'src/roff/groff/groff.1':2133
+groff-aarch64-unknown-linux-gnu> troff:src/roff/groff/groff.1:2133: warning [p 155, 4.2i, div 'an-div', 0.2i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':743: macro 'I'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'src/roff/groff/groff.1':2141
+groff-aarch64-unknown-linux-gnu> troff:src/roff/groff/groff.1:2141: warning [p 155, 5.2i, div 'an-div', 0.2i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':743: macro 'I'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'src/roff/groff/groff.1':2161
+groff-aarch64-unknown-linux-gnu> troff:src/roff/groff/groff.1:2161: warning [p 155, 6.3i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':743: macro 'I'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'src/roff/groff/groff.1':2183
+groff-aarch64-unknown-linux-gnu> troff:src/roff/groff/groff.1:2183: warning [p 156, 1.2i]: cannot adjust line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':743: macro 'I'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'src/roff/groff/groff.1':2183
+groff-aarch64-unknown-linux-gnu> troff:src/roff/groff/groff.1:2183: warning [p 156, 1.3i]: cannot break line
+groff-aarch64-unknown-linux-gnu> eqn: fatal error: standard output stream is in an error state
+groff-aarch64-unknown-linux-gnu> fonts_x.roff: listing font 'AR'...
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':743: macro 'I'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'src/utils/grog/grog.1':591
+groff-aarch64-unknown-linux-gnu> troff:src/utils/grog/grog.1:591: warning [p 170, 0.3i]: cannot adjust line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':743: macro 'I'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'src/utils/grog/grog.1':591
+groff-aarch64-unknown-linux-gnu> troff:src/utils/grog/grog.1:591: warning [p 170, 0.5i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':743: macro 'I'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'src/devices/grohtml/grohtml.1':638
+groff-aarch64-unknown-linux-gnu> troff:src/devices/grohtml/grohtml.1:638: warning [p 179, 2.0i, div 'an-div', 0.2i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':910: macro 'IR'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'src/devices/grohtml/grohtml.1':645
+groff-aarch64-unknown-linux-gnu> troff:src/devices/grohtml/grohtml.1:645: warning [p 179, 2.8i, div 'an-div', 0.2i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':743: macro 'I'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'src/devices/grohtml/grohtml.1':653
+groff-aarch64-unknown-linux-gnu> troff:src/devices/grohtml/grohtml.1:653: warning [p 179, 3.7i, div 'an-div', 0.2i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':743: macro 'I'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'src/devices/grohtml/grohtml.1':670
+groff-aarch64-unknown-linux-gnu> troff:src/devices/grohtml/grohtml.1:670: warning [p 180, 0.8i, div 'an-div', 0.2i]: cannot break line
+groff-aarch64-unknown-linux-gnu> eqn: fatal error: standard output stream is in an error state
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':743: macro 'I'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'src/devices/grolbp/grolbp.1':457
+groff-aarch64-unknown-linux-gnu> troff:src/devices/grolbp/grolbp.1:457: warning [p 185, 3.0i, div 'an-div', 0.2i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':910: macro 'IR'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'src/devices/grolbp/grolbp.1':464
+groff-aarch64-unknown-linux-gnu> troff:src/devices/grolbp/grolbp.1:464: warning [p 185, 3.8i, div 'an-div', 0.2i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':743: macro 'I'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'src/devices/grolbp/grolbp.1':472
+groff-aarch64-unknown-linux-gnu> troff:src/devices/grolbp/grolbp.1:472: warning [p 185, 4.7i, div 'an-div', 0.2i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':910: macro 'IR'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'src/devices/grolj4/grolj4.1':718
+groff-aarch64-unknown-linux-gnu> troff:src/devices/grolj4/grolj4.1:718: warning [p 192, 6.0i]: cannot adjust line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':910: macro 'IR'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'src/devices/grolj4/grolj4.1':718
+groff-aarch64-unknown-linux-gnu> troff:src/devices/grolj4/grolj4.1:718: warning [p 192, 6.2i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':743: macro 'I'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'src/devices/grolj4/grolj4.1':829
+groff-aarch64-unknown-linux-gnu> troff:src/devices/grolj4/grolj4.1:829: warning [p 193, 6.3i, div 'an-div', 0.2i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':910: macro 'IR'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'src/devices/grolj4/grolj4.1':836
+groff-aarch64-unknown-linux-gnu> troff:src/devices/grolj4/grolj4.1:836: warning [p 193, 7.2i, div 'an-div', 0.2i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':743: macro 'I'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'src/devices/grolj4/grolj4.1':844
+groff-aarch64-unknown-linux-gnu> troff:src/devices/grolj4/grolj4.1:844: warning [p 194, 0.3i, div 'an-div', 0.2i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':910: macro 'IR'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'src/devices/gropdf/gropdf.1':382
+groff-aarch64-unknown-linux-gnu> troff:src/devices/gropdf/gropdf.1:382: warning [p 199, 1.2i]: cannot break line
+groff-aarch64-unknown-linux-gnu> fonts_n.roff: listing font 'AR'...
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':743: macro 'I'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'src/devices/gropdf/gropdf.1':1695
+groff-aarch64-unknown-linux-gnu> troff:src/devices/gropdf/gropdf.1:1695: warning [p 211, 6.0i, div 'an-div', 0.2i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':910: macro 'IR'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'src/devices/gropdf/gropdf.1':1702
+groff-aarch64-unknown-linux-gnu> troff:src/devices/gropdf/gropdf.1:1702: warning [p 212, 0.3i, div 'an-div', 0.2i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':910: macro 'IR'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'src/devices/gropdf/gropdf.1':1710
+groff-aarch64-unknown-linux-gnu> troff:src/devices/gropdf/gropdf.1:1710: warning [p 212, 1.2i, div 'an-div', 0.2i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':743: macro 'I'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'src/devices/gropdf/gropdf.1':1721
+groff-aarch64-unknown-linux-gnu> troff:src/devices/gropdf/gropdf.1:1721: warning [p 212, 2.2i, div 'an-div', 0.2i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':743: macro 'I'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'src/devices/gropdf/gropdf.1':1730
+groff-aarch64-unknown-linux-gnu> troff:src/devices/gropdf/gropdf.1:1730: warning [p 212, 3.2i, div 'an-div', 0.2i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':743: macro 'I'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'src/devices/gropdf/gropdf.1':1737
+groff-aarch64-unknown-linux-gnu> troff:src/devices/gropdf/gropdf.1:1737: warning [p 212, 4.2i, div 'an-div', 0.2i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':743: macro 'I'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'src/devices/gropdf/gropdf.1':1748
+groff-aarch64-unknown-linux-gnu> troff:src/devices/gropdf/gropdf.1:1748: warning [p 212, 5.3i, div 'an-div', 0.2i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':743: macro 'I'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'src/devices/gropdf/gropdf.1':1761
+groff-aarch64-unknown-linux-gnu> troff:src/devices/gropdf/gropdf.1:1761: warning [p 213, 0.0i, div 'an-div', 0.2i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':743: macro 'I'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'src/devices/gropdf/gropdf.1':1798
+groff-aarch64-unknown-linux-gnu> troff:src/devices/gropdf/gropdf.1:1798: warning [p 213, 1.8i, div 'an-div', 0.2i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':743: macro 'I'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'src/devices/gropdf/gropdf.1':1800
+groff-aarch64-unknown-linux-gnu> troff:src/devices/gropdf/gropdf.1:1800: warning [p 213, 2.3i, div 'an-div', 0.2i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':743: macro 'I'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'src/devices/grops/grops.1':1617
+groff-aarch64-unknown-linux-gnu> troff:src/devices/grops/grops.1:1617: warning [p 228, 0.0i]: cannot adjust line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':743: macro 'I'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'src/devices/grops/grops.1':1617
+groff-aarch64-unknown-linux-gnu> troff:src/devices/grops/grops.1:1617: warning [p 228, 0.2i]: cannot break line
+groff-aarch64-unknown-linux-gnu> fonts_x.roff: listing font 'BMB'...
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':743: macro 'I'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'src/devices/grops/grops.1':1718
+groff-aarch64-unknown-linux-gnu> troff:src/devices/grops/grops.1:1718: warning [p 228, 5.8i, div 'an-div', 0.2i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':910: macro 'IR'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'src/devices/grops/grops.1':1725
+groff-aarch64-unknown-linux-gnu> troff:src/devices/grops/grops.1:1725: warning [p 229, 0.2i, div 'an-div', 0.2i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':743: macro 'I'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'src/devices/grops/grops.1':1733
+groff-aarch64-unknown-linux-gnu> troff:src/devices/grops/grops.1:1733: warning [p 229, 1.0i, div 'an-div', 0.2i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':743: macro 'I'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'src/devices/grops/grops.1':1739
+groff-aarch64-unknown-linux-gnu> troff:src/devices/grops/grops.1:1739: warning [p 229, 2.0i, div 'an-div', 0.2i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':743: macro 'I'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'src/devices/grops/grops.1':1744
+groff-aarch64-unknown-linux-gnu> troff:src/devices/grops/grops.1:1744: warning [p 229, 3.0i, div 'an-div', 0.2i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':743: macro 'I'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'src/devices/grops/grops.1':1755
+groff-aarch64-unknown-linux-gnu> troff:src/devices/grops/grops.1:1755: warning [p 229, 4.2i, div 'an-div', 0.2i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':743: macro 'I'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'src/devices/grops/grops.1':1768
+groff-aarch64-unknown-linux-gnu> troff:src/devices/grops/grops.1:1768: warning [p 229, 5.3i, div 'an-div', 0.2i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':743: macro 'I'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'src/devices/grops/grops.1':1780
+groff-aarch64-unknown-linux-gnu> troff:src/devices/grops/grops.1:1780: warning [p 229, 6.3i, div 'an-div', 0.2i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':743: macro 'I'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'src/devices/grotty/grotty.1':579
+groff-aarch64-unknown-linux-gnu> troff:src/devices/grotty/grotty.1:579: warning [p 239, 1.0i, div 'an-div', 0.2i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':910: macro 'IR'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'src/devices/grotty/grotty.1':586
+groff-aarch64-unknown-linux-gnu> troff:src/devices/grotty/grotty.1:586: warning [p 239, 1.8i, div 'an-div', 0.2i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':743: macro 'I'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'src/devices/grotty/grotty.1':594
+groff-aarch64-unknown-linux-gnu> troff:src/devices/grotty/grotty.1:594: warning [p 239, 2.7i, div 'an-div', 0.2i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':910: macro 'IR'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'src/devices/grotty/grotty.1':601
+groff-aarch64-unknown-linux-gnu> troff:src/devices/grotty/grotty.1:601: warning [p 240, 0.3i, div 'an-div', 0.2i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':743: macro 'I'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'src/devices/grotty/grotty.1':609
+groff-aarch64-unknown-linux-gnu> troff:src/devices/grotty/grotty.1:609: warning [p 240, 1.2i, div 'an-div', 0.2i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':910: macro 'IR'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'src/devices/grotty/grotty.1':616
+groff-aarch64-unknown-linux-gnu> troff:src/devices/grotty/grotty.1:616: warning [p 240, 2.0i, div 'an-div', 0.2i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':743: macro 'I'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'src/devices/grotty/grotty.1':624
+groff-aarch64-unknown-linux-gnu> troff:src/devices/grotty/grotty.1:624: warning [p 240, 2.8i, div 'an-div', 0.2i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':910: macro 'IR'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'src/devices/grotty/grotty.1':631
+groff-aarch64-unknown-linux-gnu> troff:src/devices/grotty/grotty.1:631: warning [p 241, 0.3i, div 'an-div', 0.2i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':743: macro 'I'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'src/devices/grotty/grotty.1':639
+groff-aarch64-unknown-linux-gnu> troff:src/devices/grotty/grotty.1:639: warning [p 241, 1.2i, div 'an-div', 0.2i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':743: macro 'I'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'src/devices/grotty/grotty.1':654
+groff-aarch64-unknown-linux-gnu> troff:src/devices/grotty/grotty.1:654: warning [p 241, 2.3i, div 'an-div', 0.2i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':743: macro 'I'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'src/utils/hpftodit/hpftodit.1':406
+groff-aarch64-unknown-linux-gnu> troff:src/utils/hpftodit/hpftodit.1:406: warning [p 258, 1.3i, div 'an-div', 0.2i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':910: macro 'IR'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'src/utils/hpftodit/hpftodit.1':413
+groff-aarch64-unknown-linux-gnu> troff:src/utils/hpftodit/hpftodit.1:413: warning [p 259, 0.3i, div 'an-div', 0.2i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':743: macro 'I'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'src/utils/hpftodit/hpftodit.1':421
+groff-aarch64-unknown-linux-gnu> troff:src/utils/hpftodit/hpftodit.1:421: warning [p 259, 1.2i, div 'an-div', 0.2i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':743: macro 'I'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'src/utils/hpftodit/hpftodit.1':434
+groff-aarch64-unknown-linux-gnu> troff:src/utils/hpftodit/hpftodit.1:434: warning [p 260, 0.5i, div 'an-div', 0.2i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':743: macro 'I'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'src/utils/hpftodit/hpftodit.1':445
+groff-aarch64-unknown-linux-gnu> troff:src/utils/hpftodit/hpftodit.1:445: warning [p 260, 1.7i, div 'an-div', 0.2i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':743: macro 'I'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'src/utils/hpftodit/hpftodit.1':447
+groff-aarch64-unknown-linux-gnu> troff:src/utils/hpftodit/hpftodit.1:447: warning [p 261, 0.0i, div 'an-div', 0.2i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':743: macro 'I'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'src/utils/hpftodit/hpftodit.1':449
+groff-aarch64-unknown-linux-gnu> troff:src/utils/hpftodit/hpftodit.1:449: warning [p 261, 0.5i, div 'an-div', 0.2i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':743: macro 'I'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'src/utils/hpftodit/hpftodit.1':451
+groff-aarch64-unknown-linux-gnu> troff:src/utils/hpftodit/hpftodit.1:451: warning [p 261, 1.0i, div 'an-div', 0.2i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':910: macro 'IR'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'src/utils/indxbib/indxbib.1':179
+groff-aarch64-unknown-linux-gnu> troff:src/utils/indxbib/indxbib.1:179: warning [p 264, 1.2i]: cannot adjust line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':910: macro 'IR'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'src/utils/indxbib/indxbib.1':179
+groff-aarch64-unknown-linux-gnu> troff:src/utils/indxbib/indxbib.1:179: warning [p 264, 1.3i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':743: macro 'I'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'src/utils/indxbib/indxbib.1':309
+groff-aarch64-unknown-linux-gnu> troff:src/utils/indxbib/indxbib.1:309: warning [p 266, 3.5i, div 'an-div', 0.2i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':743: macro 'I'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'src/roff/nroff/nroff.1':276
+groff-aarch64-unknown-linux-gnu> troff:src/roff/nroff/nroff.1:276: warning [p 287, 0.5i]: cannot adjust line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':743: macro 'I'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'src/roff/nroff/nroff.1':276
+groff-aarch64-unknown-linux-gnu> troff:src/roff/nroff/nroff.1:276: warning [p 287, 0.7i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':743: macro 'I'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'src/roff/nroff/nroff.1':310
+groff-aarch64-unknown-linux-gnu> troff:src/roff/nroff/nroff.1:310: warning [p 288, 0.7i, div 'an-div', 0.2i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':743: macro 'I'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'src/devices/gropdf/pdfmom.1':198
+groff-aarch64-unknown-linux-gnu> troff:src/devices/gropdf/pdfmom.1:198: warning [p 295, 0.8i, div 'an-div', 0.2i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':743: macro 'I'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'contrib/pdfmark/pdfroff.1':958
+groff-aarch64-unknown-linux-gnu> troff:contrib/pdfmark/pdfroff.1:958: warning [p 321, 3.2i, div 'an-div', 0.2i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':743: macro 'I'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'src/preproc/pic/pic.1':1465
+groff-aarch64-unknown-linux-gnu> troff:src/preproc/pic/pic.1:1465: warning [p 351, 1.3i, div 'an-div', 0.2i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':743: macro 'I'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'src/preproc/pic/pic.1':1503
+groff-aarch64-unknown-linux-gnu> troff:src/preproc/pic/pic.1:1503: warning [p 351, 3.5i, div 'an-div', 0.2i]: cannot break line
+groff-aarch64-unknown-linux-gnu> fonts_n.roff: listing font 'BMB'...
+groff-aarch64-unknown-linux-gnu> fonts_x.roff: listing font 'BMBI'...
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':743: macro 'I'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'src/preproc/refer/refer.1':1865
+groff-aarch64-unknown-linux-gnu> troff:src/preproc/refer/refer.1:1865: warning [p 381, 2.7i, div 'an-div', 0.2i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':743: macro 'I'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'src/utils/tfmtodit/tfmtodit.1':281
+groff-aarch64-unknown-linux-gnu> troff:src/utils/tfmtodit/tfmtodit.1:281: warning [p 410, 1.8i, div 'an-div', 0.2i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':910: macro 'IR'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'src/utils/tfmtodit/tfmtodit.1':288
+groff-aarch64-unknown-linux-gnu> troff:src/utils/tfmtodit/tfmtodit.1:288: warning [p 410, 2.7i, div 'an-div', 0.2i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':743: macro 'I'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'src/utils/tfmtodit/tfmtodit.1':296
+groff-aarch64-unknown-linux-gnu> troff:src/utils/tfmtodit/tfmtodit.1:296: warning [p 411, 0.3i, div 'an-div', 0.2i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':743: macro 'I'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'src/utils/tfmtodit/tfmtodit.1':298
+groff-aarch64-unknown-linux-gnu> troff:src/utils/tfmtodit/tfmtodit.1:298: warning [p 411, 0.8i, div 'an-div', 0.2i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':743: macro 'I'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'src/utils/tfmtodit/tfmtodit.1':300
+groff-aarch64-unknown-linux-gnu> troff:src/utils/tfmtodit/tfmtodit.1:300: warning [p 411, 1.3i, div 'an-div', 0.2i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':743: macro 'I'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'src/utils/tfmtodit/tfmtodit.1':302
+groff-aarch64-unknown-linux-gnu> troff:src/utils/tfmtodit/tfmtodit.1:302: warning [p 411, 1.8i, div 'an-div', 0.2i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':743: macro 'I'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'src/utils/tfmtodit/tfmtodit.1':304
+groff-aarch64-unknown-linux-gnu> troff:src/utils/tfmtodit/tfmtodit.1:304: warning [p 411, 2.3i, div 'an-div', 0.2i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':743: macro 'I'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'src/utils/tfmtodit/tfmtodit.1':306
+groff-aarch64-unknown-linux-gnu> troff:src/utils/tfmtodit/tfmtodit.1:306: warning [p 411, 2.8i, div 'an-div', 0.2i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':743: macro 'I'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'src/utils/tfmtodit/tfmtodit.1':308
+groff-aarch64-unknown-linux-gnu> troff:src/utils/tfmtodit/tfmtodit.1:308: warning [p 412, 0.0i, div 'an-div', 0.2i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':743: macro 'I'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'src/utils/tfmtodit/tfmtodit.1':310
+groff-aarch64-unknown-linux-gnu> troff:src/utils/tfmtodit/tfmtodit.1:310: warning [p 412, 0.5i, div 'an-div', 0.2i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':743: macro 'I'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'src/utils/tfmtodit/tfmtodit.1':312
+groff-aarch64-unknown-linux-gnu> troff:src/utils/tfmtodit/tfmtodit.1:312: warning [p 412, 1.0i, div 'an-div', 0.2i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':743: macro 'I'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'src/utils/tfmtodit/tfmtodit.1':314
+groff-aarch64-unknown-linux-gnu> troff:src/utils/tfmtodit/tfmtodit.1:314: warning [p 412, 1.5i, div 'an-div', 0.2i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':743: macro 'I'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'src/utils/tfmtodit/tfmtodit.1':316
+groff-aarch64-unknown-linux-gnu> troff:src/utils/tfmtodit/tfmtodit.1:316: warning [p 412, 2.0i, div 'an-div', 0.2i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':743: macro 'I'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'src/utils/tfmtodit/tfmtodit.1':318
+groff-aarch64-unknown-linux-gnu> troff:src/utils/tfmtodit/tfmtodit.1:318: warning [p 412, 2.5i, div 'an-div', 0.2i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':743: macro 'I'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'src/utils/tfmtodit/tfmtodit.1':320
+groff-aarch64-unknown-linux-gnu> troff:src/utils/tfmtodit/tfmtodit.1:320: warning [p 412, 3.0i, div 'an-div', 0.2i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':944: macro 'RI'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'src/roff/troff/troff.1':817
+groff-aarch64-unknown-linux-gnu> troff:src/roff/troff/troff.1:817: warning [p 425, 0.2i]: cannot adjust line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':944: macro 'RI'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'src/roff/troff/troff.1':817
+groff-aarch64-unknown-linux-gnu> troff:src/roff/troff/troff.1:817: warning [p 425, 0.3i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':944: macro 'RI'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'src/roff/troff/troff.1':819
+groff-aarch64-unknown-linux-gnu> troff:src/roff/troff/troff.1:819: warning [p 425, 0.7i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':944: macro 'RI'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'src/roff/troff/troff.1':841
+groff-aarch64-unknown-linux-gnu> troff:src/roff/troff/troff.1:841: warning [p 425, 2.2i]: cannot adjust line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':944: macro 'RI'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'src/roff/troff/troff.1':841
+groff-aarch64-unknown-linux-gnu> troff:src/roff/troff/troff.1:841: warning [p 425, 2.3i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':944: macro 'RI'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'src/roff/troff/troff.1':843
+groff-aarch64-unknown-linux-gnu> troff:src/roff/troff/troff.1:843: warning [p 425, 2.7i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':743: macro 'I'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'src/roff/troff/troff.1':888
+groff-aarch64-unknown-linux-gnu> troff:src/roff/troff/troff.1:888: warning [p 425, 5.7i, div 'an-div', 0.2i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':743: macro 'I'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'src/roff/troff/troff.1':896
+groff-aarch64-unknown-linux-gnu> troff:src/roff/troff/troff.1:896: warning [p 426, 0.3i, div 'an-div', 0.2i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':904: string 'an-result'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':910: macro 'IR'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'src/roff/troff/troff.1':904
+groff-aarch64-unknown-linux-gnu> troff:src/roff/troff/troff.1:904: warning [p 426, 1.3i, div 'an-div', 0.2i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':904: string 'an-result'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':910: macro 'IR'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'src/roff/troff/troff.1':910
+groff-aarch64-unknown-linux-gnu> troff:src/roff/troff/troff.1:910: warning [p 426, 2.2i, div 'an-div', 0.2i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':904: string 'an-result'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':910: macro 'IR'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'src/roff/troff/troff.1':916
+groff-aarch64-unknown-linux-gnu> troff:src/roff/troff/troff.1:916: warning [p 426, 3.0i, div 'an-div', 0.2i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':904: string 'an-result'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':910: macro 'IR'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'man/groff_font.5':1033
+groff-aarch64-unknown-linux-gnu> troff:man/groff_font.5:1033: warning [p 436, 1.3i, div 'an-div', 0.2i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':904: string 'an-result'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':910: macro 'IR'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'man/groff_font.5':1039
+groff-aarch64-unknown-linux-gnu> troff:man/groff_font.5:1039: warning [p 436, 2.2i, div 'an-div', 0.2i]: cannot break line
+groff-aarch64-unknown-linux-gnu> fonts_n.roff: listing font 'BMBI'...
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':904: string 'an-result'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':910: macro 'IR'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'man/groff_out.5':1819
+groff-aarch64-unknown-linux-gnu> troff:man/groff_out.5:1819: warning [p 486, 0.7i, div 'an-div', 0.2i]: cannot break line
+groff-aarch64-unknown-linux-gnu> fonts_x.roff: listing font 'BMI'...
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':1121: macro 'an*end-hyperlink'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':1160: macro 'UE'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'man/groff_tmac.5':932
+groff-aarch64-unknown-linux-gnu> troff:man/groff_tmac.5:932: warning [p 500, 3.8i]: cannot adjust line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':1121: macro 'an*end-hyperlink'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':1160: macro 'UE'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'man/groff_tmac.5':932
+groff-aarch64-unknown-linux-gnu> troff:man/groff_tmac.5:932: warning [p 500, 4.0i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':910: macro 'IR'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'man/groff.7':288
+groff-aarch64-unknown-linux-gnu> troff:man/groff.7:288: warning [p 508, 2.5i]: cannot break line
+groff-aarch64-unknown-linux-gnu> fonts_x.roff: listing font 'BMR'...
+groff-aarch64-unknown-linux-gnu> fonts_n.roff: listing font 'BMI'...
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':743: macro 'I'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'man/groff_char.7':2150
+groff-aarch64-unknown-linux-gnu> troff:man/groff_char.7:2150: warning [p 594, 2.2i, div 'an-div', 0.2i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':743: macro 'I'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'man/groff_char.7':2158
+groff-aarch64-unknown-linux-gnu> troff:man/groff_char.7:2158: warning [p 594, 3.3i, div 'an-div', 0.2i]: cannot break line
+groff-aarch64-unknown-linux-gnu> fonts_x.roff: listing font 'CB'...
+groff-aarch64-unknown-linux-gnu> fonts_n.roff: listing font 'BMR'...
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':743: macro 'I'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'contrib/hdtbl/groff_hdtbl.7':1217
+groff-aarch64-unknown-linux-gnu> troff:contrib/hdtbl/groff_hdtbl.7:1217: warning [p 668, 2.2i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':743: macro 'I'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'tmac/groff_man.7':1916
+groff-aarch64-unknown-linux-gnu> troff:tmac/groff_man.7:1916: warning [p 701, 3.2i, div 'an-div', 0.2i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':743: macro 'I'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'tmac/groff_man.7':1927
+groff-aarch64-unknown-linux-gnu> troff:tmac/groff_man.7:1927: warning [p 701, 4.2i, div 'an-div', 0.2i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':743: macro 'I'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'tmac/groff_man.7':1960
+groff-aarch64-unknown-linux-gnu> troff:tmac/groff_man.7:1960: warning [p 702, 0.3i, div 'an-div', 0.2i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':743: macro 'I'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'tmac/groff_man.7':2010
+groff-aarch64-unknown-linux-gnu> troff:tmac/groff_man.7:2010: warning [p 702, 4.3i, div 'an-div', 0.2i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':743: macro 'I'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'tmac/groff_man.7':2016
+groff-aarch64-unknown-linux-gnu> troff:tmac/groff_man.7:2016: warning [p 702, 5.2i, div 'an-div', 0.2i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':743: macro 'I'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'tmac/groff_man.7':2022
+groff-aarch64-unknown-linux-gnu> troff:tmac/groff_man.7:2022: warning [p 703, 0.2i, div 'an-div', 0.2i]: cannot break line
+groff-aarch64-unknown-linux-gnu> fonts_x.roff: listing font 'CBI'...
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':743: macro 'I'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'tmac/groff_man_style.7':3474
+groff-aarch64-unknown-linux-gnu> troff:tmac/groff_man_style.7:3474: warning [p 735, 5.2i, div 'an-div', 0.2i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':743: macro 'I'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'tmac/groff_man_style.7':3485
+groff-aarch64-unknown-linux-gnu> troff:tmac/groff_man_style.7:3485: warning [p 735, 6.2i, div 'an-div', 0.2i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':743: macro 'I'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'tmac/groff_man_style.7':3518
+groff-aarch64-unknown-linux-gnu> troff:tmac/groff_man_style.7:3518: warning [p 736, 0.8i, div 'an-div', 0.2i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':743: macro 'I'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'tmac/groff_man_style.7':3568
+groff-aarch64-unknown-linux-gnu> troff:tmac/groff_man_style.7:3568: warning [p 736, 4.8i, div 'an-div', 0.2i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':743: macro 'I'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'tmac/groff_man_style.7':3574
+groff-aarch64-unknown-linux-gnu> troff:tmac/groff_man_style.7:3574: warning [p 736, 5.7i, div 'an-div', 0.2i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':743: macro 'I'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'tmac/groff_man_style.7':3580
+groff-aarch64-unknown-linux-gnu> troff:tmac/groff_man_style.7:3580: warning [p 736, 6.5i, div 'an-div', 0.2i]: cannot break line
+groff-aarch64-unknown-linux-gnu> fonts_n.roff: listing font 'CB'...
+groff-aarch64-unknown-linux-gnu> fonts_x.roff: listing font 'CI'...
+groff-aarch64-unknown-linux-gnu> fonts_n.roff: listing font 'CBI'...
+groff-aarch64-unknown-linux-gnu> fonts_x.roff: listing font 'CR'...
+groff-aarch64-unknown-linux-gnu> fonts_n.roff: listing font 'CI'...
+groff-aarch64-unknown-linux-gnu> fonts_x.roff: listing font 'EURO'...
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/doc.tmac':4330: macro 'doc-item-box1'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/doc.tmac':4349: macro 'doc-tag-list'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/doc.tmac':4094: macro 'It'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'tmac/groff_mdoc.7':5162
+groff-aarch64-unknown-linux-gnu> troff:tmac/groff_mdoc.7:5162: warning [p 855, 2.2i]: cannot adjust line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/doc.tmac':4330: macro 'doc-item-box1'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/doc.tmac':4349: macro 'doc-tag-list'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/doc.tmac':4094: macro 'It'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'tmac/groff_mdoc.7':5162
+groff-aarch64-unknown-linux-gnu> troff:tmac/groff_mdoc.7:5162: warning [p 855, 2.3i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/doc.tmac':4330: macro 'doc-item-box1'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/doc.tmac':4349: macro 'doc-tag-list'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/doc.tmac':4094: macro 'It'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'tmac/groff_mdoc.7':5192
+groff-aarch64-unknown-linux-gnu> troff:tmac/groff_mdoc.7:5192: warning [p 856, 0.8i]: cannot adjust line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/doc.tmac':4330: macro 'doc-item-box1'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/doc.tmac':4349: macro 'doc-tag-list'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/doc.tmac':4094: macro 'It'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'tmac/groff_mdoc.7':5192
+groff-aarch64-unknown-linux-gnu> troff:tmac/groff_mdoc.7:5192: warning [p 856, 1.0i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/doc.tmac':4330: macro 'doc-item-box1'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/doc.tmac':4349: macro 'doc-tag-list'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/doc.tmac':4094: macro 'It'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'tmac/groff_mdoc.7':5200
+groff-aarch64-unknown-linux-gnu> troff:tmac/groff_mdoc.7:5200: warning [p 856, 1.8i]: cannot adjust line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/doc.tmac':4330: macro 'doc-item-box1'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/doc.tmac':4349: macro 'doc-tag-list'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/doc.tmac':4094: macro 'It'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'tmac/groff_mdoc.7':5200
+groff-aarch64-unknown-linux-gnu> troff:tmac/groff_mdoc.7:5200: warning [p 856, 2.0i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/doc.tmac':4330: macro 'doc-item-box1'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/doc.tmac':4349: macro 'doc-tag-list'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/doc.tmac':4094: macro 'It'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'tmac/groff_mdoc.7':5205
+groff-aarch64-unknown-linux-gnu> troff:tmac/groff_mdoc.7:5205: warning [p 856, 2.7i]: cannot adjust line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/doc.tmac':4330: macro 'doc-item-box1'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/doc.tmac':4349: macro 'doc-tag-list'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/doc.tmac':4094: macro 'It'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'tmac/groff_mdoc.7':5205
+groff-aarch64-unknown-linux-gnu> troff:tmac/groff_mdoc.7:5205: warning [p 856, 2.8i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/doc.tmac':4330: macro 'doc-item-box1'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/doc.tmac':4349: macro 'doc-tag-list'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/doc.tmac':4094: macro 'It'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'tmac/groff_mdoc.7':5226
+groff-aarch64-unknown-linux-gnu> troff:tmac/groff_mdoc.7:5226: warning [p 857, 0.7i]: cannot adjust line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/doc.tmac':4330: macro 'doc-item-box1'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/doc.tmac':4349: macro 'doc-tag-list'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/doc.tmac':4094: macro 'It'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'tmac/groff_mdoc.7':5226
+groff-aarch64-unknown-linux-gnu> troff:tmac/groff_mdoc.7:5226: warning [p 857, 0.8i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/doc.tmac':4330: macro 'doc-item-box1'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/doc.tmac':4349: macro 'doc-tag-list'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/doc.tmac':4094: macro 'It'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'tmac/groff_mdoc.7':5230
+groff-aarch64-unknown-linux-gnu> troff:tmac/groff_mdoc.7:5230: warning [p 857, 1.7i]: cannot adjust line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/doc.tmac':4330: macro 'doc-item-box1'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/doc.tmac':4349: macro 'doc-tag-list'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/doc.tmac':4094: macro 'It'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'tmac/groff_mdoc.7':5230
+groff-aarch64-unknown-linux-gnu> troff:tmac/groff_mdoc.7:5230: warning [p 857, 1.8i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/doc.tmac':4330: macro 'doc-item-box1'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/doc.tmac':4349: macro 'doc-tag-list'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/doc.tmac':4094: macro 'It'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'tmac/groff_mdoc.7':5234
+groff-aarch64-unknown-linux-gnu> troff:tmac/groff_mdoc.7:5234: warning [p 857, 2.7i]: cannot adjust line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/doc.tmac':4330: macro 'doc-item-box1'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/doc.tmac':4349: macro 'doc-tag-list'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/doc.tmac':4094: macro 'It'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'tmac/groff_mdoc.7':5234
+groff-aarch64-unknown-linux-gnu> troff:tmac/groff_mdoc.7:5234: warning [p 857, 2.8i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/doc.tmac':4330: macro 'doc-item-box1'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/doc.tmac':4349: macro 'doc-tag-list'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/doc.tmac':4094: macro 'It'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'tmac/groff_mdoc.7':5266
+groff-aarch64-unknown-linux-gnu> troff:tmac/groff_mdoc.7:5266: warning [p 858, 1.5i]: cannot adjust line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/doc.tmac':4330: macro 'doc-item-box1'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/doc.tmac':4349: macro 'doc-tag-list'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/doc.tmac':4094: macro 'It'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'tmac/groff_mdoc.7':5266
+groff-aarch64-unknown-linux-gnu> troff:tmac/groff_mdoc.7:5266: warning [p 858, 1.7i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':743: macro 'I'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'tmac/groff_me.7':464
+groff-aarch64-unknown-linux-gnu> troff:tmac/groff_me.7:464: warning [p 874, 1.7i, div 'an-div', 0.2i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':743: macro 'I'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'tmac/groff_me.7':469
+groff-aarch64-unknown-linux-gnu> troff:tmac/groff_me.7:469: warning [p 874, 2.5i, div 'an-div', 0.2i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':743: macro 'I'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'tmac/groff_me.7':477
+groff-aarch64-unknown-linux-gnu> troff:tmac/groff_me.7:477: warning [p 875, 0.3i, div 'an-div', 0.2i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':743: macro 'I'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'tmac/groff_me.7':535
+groff-aarch64-unknown-linux-gnu> troff:tmac/groff_me.7:535: warning [p 876, 0.2i, div 'an-div', 0.2i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':743: macro 'I'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'tmac/groff_me.7':537
+groff-aarch64-unknown-linux-gnu> troff:tmac/groff_me.7:537: warning [p 876, 0.7i, div 'an-div', 0.2i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':743: macro 'I'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'tmac/groff_me.7':552
+groff-aarch64-unknown-linux-gnu> troff:tmac/groff_me.7:552: warning [p 876, 1.7i, div 'an-div', 0.2i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':743: macro 'I'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'tmac/groff_me.7':554
+groff-aarch64-unknown-linux-gnu> troff:tmac/groff_me.7:554: warning [p 876, 2.2i, div 'an-div', 0.2i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':904: string 'an-result'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':910: macro 'IR'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'contrib/mm/groff_mm.7':301
+groff-aarch64-unknown-linux-gnu> troff:contrib/mm/groff_mm.7:301: warning [p 882, 1.2i]: cannot adjust line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':904: string 'an-result'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':910: macro 'IR'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'contrib/mm/groff_mm.7':301
+groff-aarch64-unknown-linux-gnu> troff:contrib/mm/groff_mm.7:301: warning [p 882, 1.3i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':743: macro 'I'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'contrib/mm/groff_mm.7':318
+groff-aarch64-unknown-linux-gnu> troff:contrib/mm/groff_mm.7:318: warning [p 882, 2.5i]: cannot adjust line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':743: macro 'I'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'contrib/mm/groff_mm.7':318
+groff-aarch64-unknown-linux-gnu> troff:contrib/mm/groff_mm.7:318: warning [p 882, 2.7i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':904: string 'an-result'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':910: macro 'IR'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'contrib/mm/groff_mm.7':323
+groff-aarch64-unknown-linux-gnu> troff:contrib/mm/groff_mm.7:323: warning [p 883, 0.3i]: cannot break line
+groff-aarch64-unknown-linux-gnu> fonts_n.roff: listing font 'CR'...
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':743: macro 'I'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'contrib/mm/groff_mm.7':327
+groff-aarch64-unknown-linux-gnu> troff:contrib/mm/groff_mm.7:327: warning [p 883, 0.8i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':904: string 'an-result'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':910: macro 'IR'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'contrib/mm/groff_mm.7':1099
+groff-aarch64-unknown-linux-gnu> troff:contrib/mm/groff_mm.7:1099: warning [p 895, 0.2i]: cannot break line
+groff-aarch64-unknown-linux-gnu> fonts_x.roff: listing font 'HB'...
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':904: string 'an-result'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':910: macro 'IR'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'contrib/mm/groff_mm.7':2719
+groff-aarch64-unknown-linux-gnu> troff:contrib/mm/groff_mm.7:2719: warning [p 913, 4.2i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':743: macro 'I'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'contrib/mm/groff_mm.7':5325
+groff-aarch64-unknown-linux-gnu> troff:contrib/mm/groff_mm.7:5325: warning [p 931, 5.7i, div 'an-div', 0.2i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':743: macro 'I'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'contrib/mm/groff_mm.7':5332
+groff-aarch64-unknown-linux-gnu> troff:contrib/mm/groff_mm.7:5332: warning [p 931, 6.5i, div 'an-div', 0.2i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':743: macro 'I'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'contrib/mm/groff_mm.7':5338
+groff-aarch64-unknown-linux-gnu> troff:contrib/mm/groff_mm.7:5338: warning [p 931, 7.3i, div 'an-div', 0.2i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':743: macro 'I'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'contrib/mm/groff_mm.7':5346
+groff-aarch64-unknown-linux-gnu> troff:contrib/mm/groff_mm.7:5346: warning [p 932, 0.0i, div 'an-div', 0.2i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':743: macro 'I'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'contrib/mm/groff_mm.7':5353
+groff-aarch64-unknown-linux-gnu> troff:contrib/mm/groff_mm.7:5353: warning [p 932, 0.8i, div 'an-div', 0.2i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':743: macro 'I'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'contrib/mm/groff_mm.7':5358
+groff-aarch64-unknown-linux-gnu> troff:contrib/mm/groff_mm.7:5358: warning [p 932, 1.7i, div 'an-div', 0.2i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':743: macro 'I'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'contrib/mm/groff_mm.7':5363
+groff-aarch64-unknown-linux-gnu> troff:contrib/mm/groff_mm.7:5363: warning [p 932, 2.5i, div 'an-div', 0.2i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':743: macro 'I'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'contrib/mm/groff_mm.7':5368
+groff-aarch64-unknown-linux-gnu> troff:contrib/mm/groff_mm.7:5368: warning [p 932, 3.3i, div 'an-div', 0.2i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':743: macro 'I'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'contrib/mm/groff_mmse.7':161
+groff-aarch64-unknown-linux-gnu> troff:contrib/mm/groff_mmse.7:161: warning [p 934, 2.5i, div 'an-div', 0.2i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':904: string 'an-result'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':910: macro 'IR'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'contrib/mm/groff_mmse.7':163
+groff-aarch64-unknown-linux-gnu> troff:contrib/mm/groff_mmse.7:163: warning [p 934, 3.2i, div 'an-div', 0.2i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':743: macro 'I'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'contrib/mom/groff_mom.7':194
+groff-aarch64-unknown-linux-gnu> troff:contrib/mom/groff_mom.7:194: warning [p 936, 1.2i, div 'an-div', 0.2i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':743: macro 'I'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'contrib/mom/groff_mom.7':200
+groff-aarch64-unknown-linux-gnu> troff:contrib/mom/groff_mom.7:200: warning [p 936, 2.2i, div 'an-div', 0.2i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':743: macro 'I'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'contrib/mom/groff_mom.7':205
+groff-aarch64-unknown-linux-gnu> troff:contrib/mom/groff_mom.7:205: warning [p 936, 3.0i, div 'an-div', 0.2i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':743: macro 'I'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'contrib/mom/groff_mom.7':210
+groff-aarch64-unknown-linux-gnu> troff:contrib/mom/groff_mom.7:210: warning [p 936, 3.8i, div 'an-div', 0.2i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':904: string 'an-result'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':910: macro 'IR'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'contrib/mom/groff_mom.7':219
+groff-aarch64-unknown-linux-gnu> troff:contrib/mom/groff_mom.7:219: warning [p 936, 4.8i, div 'an-div', 0.2i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':743: macro 'I'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'contrib/mom/groff_mom.7':3384
+groff-aarch64-unknown-linux-gnu> troff:contrib/mom/groff_mom.7:3384: warning [p 969, 0.5i, div 'an-div', 0.2i]: cannot break line
+groff-aarch64-unknown-linux-gnu> fonts_n.roff: listing font 'EURO'...
+groff-aarch64-unknown-linux-gnu> fonts_x.roff: listing font 'HBI'...
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':743: macro 'I'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'tmac/groff_ms.7':2792
+groff-aarch64-unknown-linux-gnu> troff:tmac/groff_ms.7:2792: warning [p 996, 4.2i, div 'an-div', 0.2i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':743: macro 'I'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'tmac/groff_ms.7':2797
+groff-aarch64-unknown-linux-gnu> troff:tmac/groff_ms.7:2797: warning [p 996, 5.0i, div 'an-div', 0.2i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':743: macro 'I'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'tmac/groff_ms.7':2805
+groff-aarch64-unknown-linux-gnu> troff:tmac/groff_ms.7:2805: warning [p 996, 5.8i, div 'an-div', 0.2i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':743: macro 'I'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'tmac/groff_ms.7':2842
+groff-aarch64-unknown-linux-gnu> troff:tmac/groff_ms.7:2842: warning [p 996, 8.5i, div 'an-div', 0.2i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':743: macro 'I'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'tmac/groff_ms.7':2844
+groff-aarch64-unknown-linux-gnu> troff:tmac/groff_ms.7:2844: warning [p 996, 9.0i, div 'an-div', 0.2i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':743: macro 'I'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'tmac/groff_ms.7':2856
+groff-aarch64-unknown-linux-gnu> troff:tmac/groff_ms.7:2856: warning [p 997, 0.5i, div 'an-div', 0.2i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':743: macro 'I'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'tmac/groff_ms.7':2858
+groff-aarch64-unknown-linux-gnu> troff:tmac/groff_ms.7:2858: warning [p 997, 1.0i, div 'an-div', 0.2i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':743: macro 'I'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'contrib/rfc1345/groff_rfc1345.7':219
+groff-aarch64-unknown-linux-gnu> troff:contrib/rfc1345/groff_rfc1345.7:219: warning [p 1000, 2.0i, div 'an-div', 0.2i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':743: macro 'I'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'tmac/groff_trace.7':264
+groff-aarch64-unknown-linux-gnu> troff:tmac/groff_trace.7:264: warning [p 1015, 0.7i, div 'an-div', 0.2i]: cannot break line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':743: macro 'I'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'tmac/groff_www.7':717
+groff-aarch64-unknown-linux-gnu> troff:tmac/groff_www.7:717: warning [p 1036, 2.8i]: cannot adjust line
+groff-aarch64-unknown-linux-gnu> troff: backtrace: '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0/tmac/an.tmac':743: macro 'I'
+groff-aarch64-unknown-linux-gnu> troff: backtrace: file 'tmac/groff_www.7':717
+groff-aarch64-unknown-linux-gnu> troff:tmac/groff_www.7:717: warning [p 1036, 3.0i]: cannot break line
+groff-aarch64-unknown-linux-gnu> fonts_n.roff: listing font 'HB'...
+groff-aarch64-unknown-linux-gnu> fonts_x.roff: listing font 'HI'...
+groff-aarch64-unknown-linux-gnu> fonts_x.roff: listing font 'HNB'...
+groff-aarch64-unknown-linux-gnu> fonts_n.roff: listing font 'HBI'...
+groff-aarch64-unknown-linux-gnu> fonts_x.roff: listing font 'HNBI'...
+groff-aarch64-unknown-linux-gnu> fonts_n.roff: listing font 'HI'...
+groff-aarch64-unknown-linux-gnu> fonts_x.roff: listing font 'HNI'...
+groff-aarch64-unknown-linux-gnu> fonts_n.roff: listing font 'HNB'...
+groff-aarch64-unknown-linux-gnu> fonts_x.roff: listing font 'HNR'...
+groff-aarch64-unknown-linux-gnu> fonts_n.roff: listing font 'HNBI'...
+groff-aarch64-unknown-linux-gnu> fonts_x.roff: listing font 'HR'...
+groff-aarch64-unknown-linux-gnu> fonts_n.roff: listing font 'HNI'...
+groff-aarch64-unknown-linux-gnu> fonts_x.roff: listing font 'NB'...
+groff-aarch64-unknown-linux-gnu> fonts_n.roff: listing font 'HNR'...
+groff-aarch64-unknown-linux-gnu> fonts_x.roff: listing font 'NBI'...
+groff-aarch64-unknown-linux-gnu> fonts_n.roff: listing font 'HR'...
+groff-aarch64-unknown-linux-gnu> fonts_x.roff: listing font 'NI'...
+groff-aarch64-unknown-linux-gnu> fonts_n.roff: listing font 'NB'...
+groff-aarch64-unknown-linux-gnu> fonts_x.roff: listing font 'NR'...
+groff-aarch64-unknown-linux-gnu> fonts_n.roff: listing font 'NBI'...
+groff-aarch64-unknown-linux-gnu> fonts_x.roff: listing font 'PB'...
+groff-aarch64-unknown-linux-gnu> fonts_n.roff: listing font 'NI'...
+groff-aarch64-unknown-linux-gnu> fonts_x.roff: listing font 'PBI'...
+groff-aarch64-unknown-linux-gnu> fonts_n.roff: listing font 'NR'...
+groff-aarch64-unknown-linux-gnu> fonts_x.roff: listing font 'PI'...
+groff-aarch64-unknown-linux-gnu> fonts_n.roff: listing font 'PB'...
+groff-aarch64-unknown-linux-gnu> fonts_x.roff: listing font 'PR'...
+groff-aarch64-unknown-linux-gnu> fonts_x.roff: listing font 'S'...
+groff-aarch64-unknown-linux-gnu> fonts_n.roff: listing font 'PBI'...
+groff-aarch64-unknown-linux-gnu> fonts_x.roff: listing font 'SS'...
+groff-aarch64-unknown-linux-gnu> fonts_n.roff: listing font 'PI'...
+groff-aarch64-unknown-linux-gnu> fonts_x.roff: listing font 'TB'...
+groff-aarch64-unknown-linux-gnu> fonts_n.roff: listing font 'PR'...
+groff-aarch64-unknown-linux-gnu> fonts_x.roff: listing font 'TBI'...
+groff-aarch64-unknown-linux-gnu> fonts_n.roff: listing font 'S'...
+groff-aarch64-unknown-linux-gnu> fonts_x.roff: listing font 'TI'...
+groff-aarch64-unknown-linux-gnu> fonts_n.roff: listing font 'SS'...
+groff-aarch64-unknown-linux-gnu> fonts_x.roff: listing font 'TR'...
+groff-aarch64-unknown-linux-gnu> fonts_n.roff: listing font 'TB'...
+groff-aarch64-unknown-linux-gnu> fonts_x.roff: listing font 'ZCMI'...
+groff-aarch64-unknown-linux-gnu> fonts_n.roff: listing font 'TBI'...
+groff-aarch64-unknown-linux-gnu> fonts_x.roff: listing font 'ZD'...
+groff-aarch64-unknown-linux-gnu> fonts_n.roff: listing font 'TI'...
+groff-aarch64-unknown-linux-gnu> fonts_x.roff: listing font 'ZDR'...
+groff-aarch64-unknown-linux-gnu> fonts_n.roff: listing font 'TR'...
+groff-aarch64-unknown-linux-gnu> fonts_n.roff: listing font 'ZCMI'...
+groff-aarch64-unknown-linux-gnu> fonts_n.roff: listing font 'ZD'...
+groff-aarch64-unknown-linux-gnu> fonts_n.roff: listing font 'ZDR'...
+groff-aarch64-unknown-linux-gnu> make[1]: Leaving directory '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0'
+groff-aarch64-unknown-linux-gnu> make: *** [Makefile:6167: all] Error 2
+error: builder for '/nix/store/mw6xi34ix57ifq4cwkfz0ygiixhr6jvl-groff-aarch64-unknown-linux-gnu-1.23.0.drv' failed with exit code 2;
+       last 10 log lines:
+       > fonts_n.roff: listing font 'TBI'...
+       > fonts_x.roff: listing font 'ZD'...
+       > fonts_n.roff: listing font 'TI'...
+       > fonts_x.roff: listing font 'ZDR'...
+       > fonts_n.roff: listing font 'TR'...
+       > fonts_n.roff: listing font 'ZCMI'...
+       > fonts_n.roff: listing font 'ZD'...
+       > fonts_n.roff: listing font 'ZDR'...
+       > make[1]: Leaving directory '/tmp/nix-build-groff-aarch64-unknown-linux-gnu-1.23.0.drv-0/groff-1.23.0'
+       > make: *** [Makefile:6167: all] Error 2
+       For full logs, run 'nix log /nix/store/mw6xi34ix57ifq4cwkfz0ygiixhr6jvl-groff-aarch64-unknown-linux-gnu-1.23.0.drv'.
+error: 1 dependencies of derivation '/nix/store/c8pjqh768igavn13bdm2bdjvgkw0maf7-man-db-aarch64-unknown-linux-gnu-2.13.0.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/8hgffmz48dj3vb3hsix47p0wraigrkh6-system-path.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/ngaml3vw5n80121vlqnm6fr2qy36hlbc-nixos-system-nixos-24.11.20241216.3945713.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/hkjnlpa54bv67fx9nlm364y0db50dn32-nixos-vm.drv' failed to build

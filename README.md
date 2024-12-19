@@ -9,3 +9,5 @@ _Currently failing and I'm not sure why._
 ```shell
 nix build --impure .#vm.test
 ```
+
+See [log.txt](./log.txt) for log output.
